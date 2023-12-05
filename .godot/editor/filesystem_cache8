@@ -1,3 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701794549
+::res://::1701795901
+deep_space.png::CompressedTexture2D::1463739883119876836::1701795745::1701795746::1::::<><>::
+guy_standing.png::CompressedTexture2D::3424132907058453330::1701795029::1701795030::1::::<><>::
 icon.svg::CompressedTexture2D::6531681790889599722::1701794544::1701794552::1::::<><>::
+README.md::TextFile::-1::1701794602::0::1::::<><>::
+main.tscn::PackedScene::7501874650025106412::1701795817::0::1::::<><>::uid://u4bt12yfo15a::::res://deep_space.png
+zombie.png::CompressedTexture2D::2190504026737665166::1701795901::1701795902::1::::<><>::
