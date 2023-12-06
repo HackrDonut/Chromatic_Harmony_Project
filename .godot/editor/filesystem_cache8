@@ -1,8 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701795901
+::res://::1701872100
 deep_space.png::CompressedTexture2D::1463739883119876836::1701795745::1701795746::1::::<><>::
 guy_standing.png::CompressedTexture2D::3424132907058453330::1701795029::1701795030::1::::<><>::
+guy_standing.tscn::PackedScene::2877500156980767110::1701796496::0::1::::<><>::uid://bo1w763cjgme1::::res://guy_standing.png
 icon.svg::CompressedTexture2D::6531681790889599722::1701794544::1701794552::1::::<><>::
+main.tscn::PackedScene::7501874650025106412::1701796492::0::1::::<><>::uid://u4bt12yfo15a::::res://deep_space.png<>uid://6hdjtfttly5k::::res://zombie.png
 README.md::TextFile::-1::1701794602::0::1::::<><>::
-main.tscn::PackedScene::7501874650025106412::1701795817::0::1::::<><>::uid://u4bt12yfo15a::::res://deep_space.png
+enemy_zombie.tscn::PackedScene::1413453215565406769::1701872083::0::1::::<><>::uid://6hdjtfttly5k::::res://zombie.png
+staffnotes (1).png::CompressedTexture2D::3082268207036249122::1701872100::1701872100::1::::<><>::
 zombie.png::CompressedTexture2D::2190504026737665166::1701795901::1701795902::1::::<><>::
