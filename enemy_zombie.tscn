@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://uexmrl84c1eb"]
+[gd_scene load_steps=5 format=3 uid="uid://uexmrl84c1eb"]
 
 [ext_resource type="Texture2D" uid="uid://6hdjtfttly5k" path="res://zombie.png" id="1_exkmv"]
-[ext_resource type="Texture2D" uid="uid://bj6crie5kql2a" path="res://staffnotes (1).png" id="2_glttb"]
 [ext_resource type="Script" path="res://enemy_zombie.gd" id="2_pn0yc"]
+[ext_resource type="Texture2D" uid="uid://ckspj60dejhs4" path="res://staffnotes (2).png" id="3_tcok4"]
+[ext_resource type="Script" path="res://Random_Note.gd" id="4_guo1b"]
 
 [node name="Enemy_Zombie" type="Sprite2D"]
 position = Vector2(11, 25)
@@ -11,9 +12,18 @@ texture = ExtResource("1_exkmv")
 script = ExtResource("2_pn0yc")
 
 [node name="Random_Note" type="Sprite2D" parent="."]
-position = Vector2(1.77778, -35.5556)
+position = Vector2(8.97192, -26.9938)
 scale = Vector2(0.509259, 0.509259)
-texture = ExtResource("2_glttb")
-hframes = 4
-vframes = 5
-frame = 6
+texture = ExtResource("3_tcok4")
+hframes = 7
+vframes = 6
+frame = 32
+script = ExtResource("4_guo1b")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-4.85525, -26.9938)
+scale = Vector2(0.509, 0.509)
+texture = ExtResource("3_tcok4")
+hframes = 7
+vframes = 6
+frame = 34
