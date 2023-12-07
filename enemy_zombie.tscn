@@ -6,24 +6,32 @@
 [ext_resource type="Script" path="res://Random_Note.gd" id="4_guo1b"]
 
 [node name="Enemy_Zombie" type="Sprite2D"]
-position = Vector2(11, 25)
+position = Vector2(12, 20)
 scale = Vector2(5.0625, 5.0625)
 texture = ExtResource("1_exkmv")
 script = ExtResource("2_pn0yc")
 
 [node name="Random_Note" type="Sprite2D" parent="."]
-position = Vector2(8.97192, -26.9938)
+position = Vector2(3.24353, -31.142)
 scale = Vector2(0.509259, 0.509259)
 texture = ExtResource("3_tcok4")
 hframes = 7
 vframes = 6
-frame = 32
+frame = 21
 script = ExtResource("4_guo1b")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(-4.85525, -26.9938)
+[node name="Treble_Clef" type="Sprite2D" parent="."]
+position = Vector2(-10.5836, -31.142)
 scale = Vector2(0.509, 0.509)
 texture = ExtResource("3_tcok4")
 hframes = 7
 vframes = 6
 frame = 34
+
+[node name="Random_Note_2" type="Sprite2D" parent="."]
+position = Vector2(16.2806, -31.1422)
+scale = Vector2(0.509, 0.509)
+texture = ExtResource("3_tcok4")
+hframes = 7
+vframes = 6
+frame = 21

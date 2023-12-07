@@ -1,5 +1,4 @@
-res://enemy_zombie.tscn
-res://enemy_zombie.gd
-res://Random_Note.gd
 res://guy_standing.tscn
 res://main.tscn
+res://enemy_zombie.tscn
+res://enemy_zombie.gd
