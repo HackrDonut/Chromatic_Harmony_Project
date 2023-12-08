@@ -1,3 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701794549
-icon.svg::CompressedTexture2D::6531681790889599722::1701794544::1701794552::1::::<><>::
+::res://::1702052831
+Button.gd::GDScript::-1::1701880266::0::1::::<>Button<>::
+icon.svg::CompressedTexture2D::6531681790889599722::1701794860::1701794860::1::::<><>::
+key.gd::GDScript::-1::1701968664::0::1::::<>ColorRect<>::
+key.tscn::PackedScene::2376733884125463232::1701969035::0::1::::<><>::res://key.gd
+piano.gd::GDScript::-1::1701969065::0::1::::<>Node2D<>::
+piano.tscn::PackedScene::6214428022369724500::1701969272::0::1::::<><>::res://piano.gd<>uid://84kpvtassvho::::res://key.tscn
+README.md::TextFile::-1::1701794860::0::1::::<><>::
+white_key.gd::GDScript::-1::1701882003::0::1::::<>ColorRect<>::

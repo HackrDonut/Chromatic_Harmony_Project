@@ -1,0 +1,139 @@
+[gd_scene load_steps=3 format=3 uid="uid://cuskysflsgkym"]
+
+[ext_resource type="Script" path="res://piano.gd" id="1_pcbsw"]
+[ext_resource type="PackedScene" uid="uid://84kpvtassvho" path="res://key.tscn" id="2_7e8rq"]
+
+[node name="piano" type="Node2D"]
+script = ExtResource("1_pcbsw")
+
+[node name="A" parent="." instance=ExtResource("2_7e8rq")]
+offset_left = 96.0
+offset_top = 448.0
+offset_right = 176.0
+offset_bottom = 648.0
+
+[node name="S" parent="." instance=ExtResource("2_7e8rq")]
+offset_left = 184.0
+offset_top = 448.0
+offset_right = 264.0
+offset_bottom = 648.0
+script = null
+
+[node name="D" parent="." instance=ExtResource("2_7e8rq")]
+offset_left = 272.0
+offset_top = 448.0
+offset_right = 352.0
+offset_bottom = 648.0
+script = null
+
+[node name="F" parent="." instance=ExtResource("2_7e8rq")]
+offset_left = 360.0
+offset_top = 448.0
+offset_right = 440.0
+offset_bottom = 648.0
+script = null
+
+[node name="G" parent="." instance=ExtResource("2_7e8rq")]
+offset_left = 448.0
+offset_top = 448.0
+offset_right = 528.0
+offset_bottom = 648.0
+script = null
+
+[node name="H" parent="." instance=ExtResource("2_7e8rq")]
+offset_left = 536.0
+offset_top = 448.0
+offset_right = 616.0
+offset_bottom = 648.0
+script = null
+
+[node name="J" parent="." instance=ExtResource("2_7e8rq")]
+offset_left = 624.0
+offset_top = 448.0
+offset_right = 704.0
+offset_bottom = 648.0
+script = null
+
+[node name="K" parent="." instance=ExtResource("2_7e8rq")]
+offset_left = 712.0
+offset_top = 448.0
+offset_right = 792.0
+offset_bottom = 648.0
+script = null
+
+[node name="L" parent="." instance=ExtResource("2_7e8rq")]
+offset_left = 800.0
+offset_top = 448.0
+offset_right = 880.0
+offset_bottom = 648.0
+script = null
+
+[node name="semi" parent="." instance=ExtResource("2_7e8rq")]
+offset_left = 888.0
+offset_top = 448.0
+offset_right = 968.0
+offset_bottom = 648.0
+script = null
+
+[node name="apos" parent="." instance=ExtResource("2_7e8rq")]
+offset_left = 976.0
+offset_top = 448.0
+offset_right = 1056.0
+offset_bottom = 648.0
+script = null
+
+[node name="W" parent="." instance=ExtResource("2_7e8rq")]
+modulate = Color(0, 0, 0, 1)
+offset_left = 160.0
+offset_top = 448.0
+offset_right = 200.0
+offset_bottom = 563.0
+script = null
+
+[node name="E" parent="." instance=ExtResource("2_7e8rq")]
+modulate = Color(0, 0, 0, 1)
+offset_left = 248.0
+offset_top = 448.0
+offset_right = 288.0
+offset_bottom = 563.0
+script = null
+
+[node name="T" parent="." instance=ExtResource("2_7e8rq")]
+modulate = Color(0, 0, 0, 1)
+offset_left = 424.0
+offset_top = 448.0
+offset_right = 464.0
+offset_bottom = 563.0
+script = null
+
+[node name="Y" parent="." instance=ExtResource("2_7e8rq")]
+modulate = Color(0, 0, 0, 1)
+offset_left = 512.0
+offset_top = 448.0
+offset_right = 552.0
+offset_bottom = 563.0
+script = null
+
+[node name="U" parent="." instance=ExtResource("2_7e8rq")]
+modulate = Color(0, 0, 0, 1)
+offset_left = 600.0
+offset_top = 448.0
+offset_right = 640.0
+offset_bottom = 563.0
+script = null
+
+[node name="O" parent="." instance=ExtResource("2_7e8rq")]
+modulate = Color(0, 0, 0, 1)
+offset_left = 776.0
+offset_top = 448.0
+offset_right = 816.0
+offset_bottom = 563.0
+script = null
+
+[node name="P" parent="." instance=ExtResource("2_7e8rq")]
+modulate = Color(0, 0, 0, 1)
+offset_left = 864.0
+offset_top = 448.0
+offset_right = 904.0
+offset_bottom = 563.0
+script = null
