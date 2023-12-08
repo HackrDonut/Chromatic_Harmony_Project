@@ -1,8 +1,28 @@
-[gd_scene load_steps=2 format=3 uid="uid://de471rbo3pw0k"]
+[gd_scene load_steps=4 format=3 uid="uid://de471rbo3pw0k"]
 
+[ext_resource type="Script" path="res://main.gd" id="1_coq2m"]
+[ext_resource type="Texture2D" uid="uid://bo1w763cjgme1" path="res://guy_standing.png" id="2_8sus1"]
 [ext_resource type="PackedScene" uid="uid://uexmrl84c1eb" path="res://enemy_zombie.tscn" id="2_cs4gp"]
 
 [node name="Main" type="Node2D"]
+script = ExtResource("1_coq2m")
+
+[node name="Me" type="Sprite2D" parent="."]
+position = Vector2(151, 302)
+scale = Vector2(5.14063, 5.14063)
+texture = ExtResource("2_8sus1")
+
+[node name="Enemy_Zombie5" parent="." instance=ExtResource("2_cs4gp")]
+position = Vector2(1012, 521)
+
+[node name="Enemy_Zombie4" parent="." instance=ExtResource("2_cs4gp")]
+position = Vector2(792, 516)
+
+[node name="Enemy_Zombie3" parent="." instance=ExtResource("2_cs4gp")]
+position = Vector2(767, 202)
+
+[node name="Enemy_Zombie2" parent="." instance=ExtResource("2_cs4gp")]
+position = Vector2(573, 515)
 
 [node name="Enemy_Zombie" parent="." instance=ExtResource("2_cs4gp")]
-position = Vector2(525, 314)
+position = Vector2(422, 217)

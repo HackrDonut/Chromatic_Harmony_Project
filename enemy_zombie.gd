@@ -5,7 +5,7 @@ var note = ""
 var note2 = ""
 var enem_key = []
 var player_input = ""
-var focus = true
+var focus = false
 var note1_clear = false
 var note2_clear = false
 @onready var nsprite = get_node("Random_Note")
@@ -15,11 +15,6 @@ var note2_clear = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	if focus == false:
-		nsprite.visible = false
-		nsprite2.visible = false
-		clef.visible = false
-		
 	
 	var rand = rng.randf_range(0, 10)
 	var rand2 = rng.randf_range(0, 10)
@@ -122,41 +117,77 @@ func _ready():
 	enem_key.append(note2)
 	print(enem_key)
 	
-
-func _input(event):
-	if event is InputEventKey and event.pressed:
-		if event.keycode == KEY_A:
-			player_input == "C1"
-		elif event.keycode == KEY_S:
-			player_input == "D1"
-		elif event.keycode == KEY_D:
-			player_input == "E1"
-		elif event.keycode == KEY_F:
-			player_input == "F1"
-		elif event.keycode == KEY_G:
-			player_input == "G1"
-		elif event.keycode == KEY_H:
-			player_input == "A1"
-		elif event.keycode == KEY_J:
-			player_input == "B1"
-		elif event.keycode == KEY_K:
-			player_input == "C2"
-		elif event.keycode == KEY_L:
-			player_input == "D2"
-		elif event.keycode == KEY_SEMICOLON:
-			player_input = "E2"
-		elif event.keycode == KEY_APOSTROPHE:
-			player_input = "F2"
+# func _input(event):
+#	if event is InputEventKey and event.pressed:
+#		if event.keycode == KEY_A:
+#			player_input == "C1"
+#		elif event.keycode == KEY_S:
+#			player_input == "D1"
+#		elif event.keycode == KEY_D:
+#			player_input == "E1"
+#		elif event.keycode == KEY_F:
+#			player_input == "F1"
+#		elif event.keycode == KEY_G:
+#			player_input == "G1"
+#		elif event.keycode == KEY_H:
+#			player_input == "A1"
+#		elif event.keycode == KEY_J:
+#			player_input == "B1"
+#		elif event.keycode == KEY_K:
+#			player_input == "C2"
+#		elif event.keycode == KEY_L:
+#			player_input == "D2"
+#		elif event.keycode == KEY_SEMICOLON:
+#			player_input = "E2"
+#		elif event.keycode == KEY_APOSTROPHE:
+#			player_input = "F2"
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	if focus == false:
+		nsprite.visible = false
+		nsprite2.visible = false
+		clef.visible = false
+	
+	if focus == true:
+		nsprite.visible = true
+		nsprite2.visible = true
+		clef.visible = true
+		
+	if Input.is_action_just_pressed("A_press"):
+		player_input = "C1"
+	elif Input.is_action_just_pressed("S_press"):
+		player_input = "D1"
+	elif Input.is_action_just_pressed("D_press"):
+		player_input = "E1"
+	elif Input.is_action_just_pressed("F_press"):
+		player_input = "F1"
+	elif Input.is_action_just_pressed("G_press"):
+		player_input = "G1"
+	elif Input.is_action_just_pressed("H_press"):
+		player_input = "A1"
+	elif Input.is_action_just_pressed("J_press"):
+		player_input = "B1"
+	elif Input.is_action_just_pressed("K_press"):
+		player_input = "C2"
+	elif Input.is_action_just_pressed("L_press"):
+		player_input = "D2"
+	elif Input.is_action_just_pressed("Semi_press"):
+		player_input = "E2"
+	elif Input.is_action_just_pressed("Apos_press"):
+		player_input = "F2"
 	if focus == true:
 		if note1_clear == false:
 			if player_input == note:
 				note1_clear = true
 				nsprite.frame = 7
+				player_input = ""
 		if note1_clear == true and note2_clear == false:
 			if player_input == note2:
 				note2_clear = true
 				nsprite2.frame = 7
+				player_input = ""
+		if note2_clear == true:
+			focus = false
+			self.visible = false
 			
