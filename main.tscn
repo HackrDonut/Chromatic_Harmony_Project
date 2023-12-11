@@ -1,28 +1,49 @@
-[gd_scene load_steps=4 format=3 uid="uid://de471rbo3pw0k"]
+[gd_scene load_steps=5 format=3 uid="uid://de471rbo3pw0k"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_coq2m"]
 [ext_resource type="Texture2D" uid="uid://bo1w763cjgme1" path="res://guy_standing.png" id="2_8sus1"]
 [ext_resource type="PackedScene" uid="uid://uexmrl84c1eb" path="res://enemy_zombie.tscn" id="2_cs4gp"]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_r6di0"]
+
 [node name="Main" type="Node2D"]
+position = Vector2(0, -3)
 script = ExtResource("1_coq2m")
 
 [node name="Me" type="Sprite2D" parent="."]
-position = Vector2(151, 302)
+position = Vector2(151, 250)
 scale = Vector2(5.14063, 5.14063)
 texture = ExtResource("2_8sus1")
 
+[node name="Area2D" type="Area2D" parent="Me"]
+
+[node name="HurtBox" type="CollisionShape2D" parent="Me/Area2D"]
+position = Vector2(-3.30699, 0)
+shape = SubResource("CapsuleShape2D_r6di0")
+
 [node name="Enemy_Zombie5" parent="." instance=ExtResource("2_cs4gp")]
-position = Vector2(1012, 521)
+position = Vector2(950, 274)
 
 [node name="Enemy_Zombie4" parent="." instance=ExtResource("2_cs4gp")]
-position = Vector2(792, 516)
+position = Vector2(772, 324)
 
 [node name="Enemy_Zombie3" parent="." instance=ExtResource("2_cs4gp")]
-position = Vector2(767, 202)
+position = Vector2(631, 236)
 
 [node name="Enemy_Zombie2" parent="." instance=ExtResource("2_cs4gp")]
-position = Vector2(573, 515)
+position = Vector2(482, 346)
 
 [node name="Enemy_Zombie" parent="." instance=ExtResource("2_cs4gp")]
-position = Vector2(422, 217)
+position = Vector2(343, 239)
+
+[node name="vic_label" type="Label" parent="."]
+visible = false
+offset_left = 338.0
+offset_top = 148.0
+offset_right = 937.0
+offset_bottom = 292.0
+theme_override_font_sizes/font_size = 50
+text = "VICTORY!!!!!!!!!!!!
+(press enter to continue)"
+
+[connection signal="area_entered" from="Me/Area2D" to="." method="_on_area_2d_area_entered"]

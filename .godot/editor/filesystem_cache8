@@ -1,12 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1702052767
+::res://::1702312325
 deep_space.png::CompressedTexture2D::1463739883119876836::1701795745::1701795746::1::::<><>::
-enemy_zombie.gd::GDScript::-1::1701968760::0::1::::<>Sprite2D<>::
-enemy_zombie.tscn::PackedScene::1413453215565406769::1701969194::0::1::::<><>::uid://6hdjtfttly5k::::res://zombie.png<>res://enemy_zombie.gd<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://Random_Note.gd
+enemy_zombie.gd::GDScript::-1::1702055477::0::1::::<>Sprite2D<>::
+enemy_zombie.tscn::PackedScene::1413453215565406769::1702055729::0::1::::<><>::uid://6hdjtfttly5k::::res://zombie.png<>res://enemy_zombie.gd<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://Random_Note.gd
 guy_standing.png::CompressedTexture2D::3424132907058453330::1701795029::1701795030::1::::<><>::
-guy_standing.tscn::PackedScene::2877500156980767110::1701967388::0::1::::<><>::uid://bo1w763cjgme1::::res://guy_standing.png
+guy_standing.tscn::PackedScene::2877500156980767110::1702055728::0::1::::<><>::uid://bo1w763cjgme1::::res://guy_standing.png
 icon.svg::CompressedTexture2D::6531681790889599722::1701794544::1701794552::1::::<><>::
-main.tscn::PackedScene::7501874650025106412::1701967388::0::1::::<><>::uid://uexmrl84c1eb::::res://enemy_zombie.tscn
+main.gd::GDScript::-1::1702055443::0::1::::<>Node2D<>::
+main.tscn::PackedScene::7501874650025106412::1702055728::0::1::::<><>::res://main.gd<>uid://bo1w763cjgme1::::res://guy_standing.png<>uid://uexmrl84c1eb::::res://enemy_zombie.tscn
 Random_Note.gd::GDScript::-1::1701882697::0::1::::<>Sprite2D<>::
 README.md::TextFile::-1::1701794602::0::1::::<><>::
 staffnotes (2).png::CompressedTexture2D::5512817097362221893::1701880911::1701880911::1::::<><>::

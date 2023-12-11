@@ -43,6 +43,8 @@ func _ready():
 		note = "E2"
 	elif rand == 10:
 		note = "F2"
+	elif rand != 0 and rand != 1 and rand != 2 and rand != 3 and rand != 4 and rand != 5 and rand != 6 and rand != 7 and rand != 8 and rand != 9 and rand != 10:
+		note = "F2"
 	
 	if rand2 == 0: # This will decide what note the second note will be.
 		note2 = "C1"
@@ -65,6 +67,8 @@ func _ready():
 	elif rand2 == 9:
 		note2 = "E2"
 	elif rand2 == 10:
+		note2 = "F2"
+	elif rand2 != 1 and rand2 != 2 and rand2 != 3 and rand2 != 4 and rand2 != 5 and rand2 != 6 and rand2 != 7 and rand2 != 8 and rand2 != 9 and rand2 != 10 and rand2 != 0:
 		note2 = "F2"
 	
 	if note == "C1": # This will make the right note appear for note 1.
@@ -115,9 +119,8 @@ func _ready():
 	
 	enem_key.append(note)
 	enem_key.append(note2)
-	print(enem_key)
+	# print(enem_key)
 	
-# func _input(event):
 #	if event is InputEventKey and event.pressed:
 #		if event.keycode == KEY_A:
 #			player_input == "C1"
@@ -144,6 +147,7 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	position.x += -.2
 	if focus == false:
 		nsprite.visible = false
 		nsprite2.visible = false
@@ -176,12 +180,15 @@ func _process(delta):
 		player_input = "E2"
 	elif Input.is_action_just_pressed("Apos_press"):
 		player_input = "F2"
+		
+
+		
 	if focus == true:
 		if note1_clear == false:
 			if player_input == note:
+				player_input = ""
 				note1_clear = true
 				nsprite.frame = 7
-				player_input = ""
 		if note1_clear == true and note2_clear == false:
 			if player_input == note2:
 				note2_clear = true
@@ -191,3 +198,5 @@ func _process(delta):
 			focus = false
 			self.visible = false
 			
+	# if player_input != "":
+		# print(player_input)

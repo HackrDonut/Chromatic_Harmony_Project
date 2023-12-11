@@ -1,9 +1,13 @@
-[gd_scene load_steps=5 format=3 uid="uid://uexmrl84c1eb"]
+[gd_scene load_steps=6 format=3 uid="uid://uexmrl84c1eb"]
 
 [ext_resource type="Texture2D" uid="uid://6hdjtfttly5k" path="res://zombie.png" id="1_exkmv"]
 [ext_resource type="Script" path="res://enemy_zombie.gd" id="2_pn0yc"]
 [ext_resource type="Texture2D" uid="uid://ckspj60dejhs4" path="res://staffnotes (2).png" id="3_tcok4"]
 [ext_resource type="Script" path="res://Random_Note.gd" id="4_guo1b"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_epkfb"]
+radius = 12.4444
+height = 40.2963
 
 [node name="Enemy_Zombie" type="Sprite2D"]
 position = Vector2(12, 20)
@@ -35,3 +39,9 @@ texture = ExtResource("3_tcok4")
 hframes = 7
 vframes = 6
 frame = 21
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="hurt" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(2.37037, 0)
+shape = SubResource("CapsuleShape2D_epkfb")
