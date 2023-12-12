@@ -158,27 +158,27 @@ func _process(delta):
 		nsprite2.visible = true
 		clef.visible = true
 		
-	if Input.is_action_just_pressed("A_press"):
+	if Input.is_action_just_pressed("A"):
 		player_input = "C1"
 	elif Input.is_action_just_pressed("S_press"):
 		player_input = "D1"
-	elif Input.is_action_just_pressed("D_press"):
+	elif Input.is_action_just_pressed("D"):
 		player_input = "E1"
-	elif Input.is_action_just_pressed("F_press"):
+	elif Input.is_action_just_pressed("F"):
 		player_input = "F1"
-	elif Input.is_action_just_pressed("G_press"):
+	elif Input.is_action_just_pressed("G"):
 		player_input = "G1"
-	elif Input.is_action_just_pressed("H_press"):
+	elif Input.is_action_just_pressed("H"):
 		player_input = "A1"
-	elif Input.is_action_just_pressed("J_press"):
+	elif Input.is_action_just_pressed("J"):
 		player_input = "B1"
-	elif Input.is_action_just_pressed("K_press"):
+	elif Input.is_action_just_pressed("K"):
 		player_input = "C2"
-	elif Input.is_action_just_pressed("L_press"):
+	elif Input.is_action_just_pressed("L"):
 		player_input = "D2"
-	elif Input.is_action_just_pressed("Semi_press"):
+	elif Input.is_action_just_pressed("semi"):
 		player_input = "E2"
-	elif Input.is_action_just_pressed("Apos_press"):
+	elif Input.is_action_just_pressed("apos"):
 		player_input = "F2"
 		
 

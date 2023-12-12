@@ -1,6 +1,8 @@
-res://guy_standing.tscn
 res://main.tscn
 res://enemy_zombie.tscn
-res://main.gd
-res://enemy_zombie.gd
 res://death_screen.tscn
+res://super_zombie.tscn
+res://super_zombie.gd
+res://enemy_zombie.gd
+res://level_2.tscn
+res://level_2.gd

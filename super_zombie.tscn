@@ -1,0 +1,43 @@
+[gd_scene load_steps=4 format=3 uid="uid://d1y2gr3nfm0ft"]
+
+[ext_resource type="Texture2D" uid="uid://crkx5hcjba1hk" path="res://bad_zombo.png" id="1_va10y"]
+[ext_resource type="Texture2D" uid="uid://ckspj60dejhs4" path="res://staffnotes (2).png" id="2_jkpwa"]
+[ext_resource type="Script" path="res://super_zombie.gd" id="2_yr4ea"]
+
+[node name="Super_Zombie" type="Sprite2D"]
+position = Vector2(-9, 14)
+scale = Vector2(7.53125, 7.53125)
+texture = ExtResource("1_va10y")
+script = ExtResource("2_yr4ea")
+
+[node name="Clef" type="Sprite2D" parent="."]
+position = Vector2(-21.5104, -25.361)
+scale = Vector2(0.509, 0.509)
+texture = ExtResource("2_jkpwa")
+hframes = 7
+vframes = 6
+frame = 34
+
+[node name="Random_Note" type="Sprite2D" parent="."]
+position = Vector2(-8.36477, -25.361)
+scale = Vector2(0.509, 0.509)
+texture = ExtResource("2_jkpwa")
+hframes = 7
+vframes = 6
+frame = 21
+
+[node name="Random_Note_2" type="Sprite2D" parent="."]
+position = Vector2(7.9668, -25.361)
+scale = Vector2(0.509, 0.509)
+texture = ExtResource("2_jkpwa")
+hframes = 7
+vframes = 6
+frame = 21
+
+[node name="Random_Note_3" type="Sprite2D" parent="."]
+position = Vector2(23.5021, -25.361)
+scale = Vector2(0.509, 0.509)
+texture = ExtResource("2_jkpwa")
+hframes = 7
+vframes = 6
+frame = 21
