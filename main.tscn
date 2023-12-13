@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://uexmrl84c1eb" path="res://enemy_zombie.tscn" id="2_cs4gp"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_r6di0"]
+radius = 7.39209
 
 [node name="Main" type="Node2D"]
 position = Vector2(0, -3)
@@ -18,7 +19,7 @@ texture = ExtResource("2_8sus1")
 [node name="Area2D" type="Area2D" parent="Me"]
 
 [node name="HurtBox" type="CollisionShape2D" parent="Me/Area2D"]
-position = Vector2(-3.30699, 0)
+position = Vector2(-3.89057, 0.194527)
 shape = SubResource("CapsuleShape2D_r6di0")
 
 [node name="Enemy_Zombie5" parent="." instance=ExtResource("2_cs4gp")]

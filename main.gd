@@ -34,4 +34,4 @@ func _process(delta):
 
 func _on_area_2d_area_entered(area):
 	if area.get_parent().visible == true:
-		print("YOU ARE DEAD!")
+		get_tree().change_scene_to_file("res://death_screen.tscn")

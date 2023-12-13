@@ -6,8 +6,8 @@
 [ext_resource type="Script" path="res://Random_Note.gd" id="4_guo1b"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_epkfb"]
-radius = 12.4444
-height = 40.2963
+radius = 7.7037
+height = 34.3704
 
 [node name="Enemy_Zombie" type="Sprite2D"]
 position = Vector2(12, 20)
@@ -43,5 +43,5 @@ frame = 21
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="hurt" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(2.37037, 0)
+position = Vector2(0.395062, -0.790123)
 shape = SubResource("CapsuleShape2D_epkfb")

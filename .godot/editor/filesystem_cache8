@@ -1,16 +1,21 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1702395985
+::res://::1702482470
 bad_zombo.png::CompressedTexture2D::5988145922587471248::1702395985::1702395985::1::::<><>::
-death_screen.tscn::PackedScene::2910215773375871522::1702395923::0::1::::<><>::
+death_screen.tscn::PackedScene::2910215773375871522::1702482383::0::1::::<><>::
 deep_space.png::CompressedTexture2D::1463739883119876836::1701795745::1701795746::1::::<><>::
-enemy_zombie.gd::GDScript::-1::1702313455::0::1::::<>Sprite2D<>::
-enemy_zombie.tscn::PackedScene::1413453215565406769::1702395923::0::1::::<><>::uid://6hdjtfttly5k::::res://zombie.png<>res://enemy_zombie.gd<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://Random_Note.gd
+enemy_zombie.gd::GDScript::-1::1702482274::0::1::::<>Sprite2D<>::
+enemy_zombie.tscn::PackedScene::1413453215565406769::1702482383::0::1::::<><>::uid://6hdjtfttly5k::::res://zombie.png<>res://enemy_zombie.gd<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://Random_Note.gd
 guy_standing.png::CompressedTexture2D::3424132907058453330::1701795029::1701795030::1::::<><>::
-guy_standing.tscn::PackedScene::2877500156980767110::1702314512::0::1::::<><>::uid://bo1w763cjgme1::::res://guy_standing.png
+guy_standing.tscn::PackedScene::2877500156980767110::1702314512::0::1::::<><>::uid://bo1w763cjgme1
 icon.svg::CompressedTexture2D::6531681790889599722::1701794544::1701794552::1::::<><>::
-main.gd::GDScript::-1::1702314510::0::1::::<>Node2D<>::
-main.tscn::PackedScene::7501874650025106412::1702395933::0::1::::<><>::res://main.gd<>uid://bo1w763cjgme1::::res://guy_standing.png<>uid://uexmrl84c1eb::::res://enemy_zombie.tscn
+level_2.gd::GDScript::-1::1702482379::0::1::::<>Node2D<>::
+level_2.tscn::PackedScene::3712241003903248301::1702482389::0::1::::<><>::res://level_2.gd<>uid://bo1w763cjgme1::::res://guy_standing.png<>uid://d1y2gr3nfm0ft::::res://super_zombie.tscn
+lorx.png::CompressedTexture2D::2865967398654161566::1702482470::1702482470::1::::<><>::
+main.gd::GDScript::-1::1702482174::0::1::::<>Node2D<>::
+main.tscn::PackedScene::7501874650025106412::1702482383::0::1::::<><>::res://main.gd<>uid://bo1w763cjgme1::::res://guy_standing.png<>uid://uexmrl84c1eb::::res://enemy_zombie.tscn
 Random_Note.gd::GDScript::-1::1701882697::0::1::::<>Sprite2D<>::
 README.md::TextFile::-1::1701794602::0::1::::<><>::
 staffnotes (2).png::CompressedTexture2D::5512817097362221893::1701880911::1701880911::1::::<><>::
+super_zombie.gd::GDScript::-1::1702400379::0::1::::<>Sprite2D<>::
+super_zombie.tscn::PackedScene::9035368062083022705::1702482383::0::1::::<><>::uid://crkx5hcjba1hk::::res://bad_zombo.png<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://super_zombie.gd
 zombie.png::CompressedTexture2D::2190504026737665166::1701795901::1701795902::1::::<><>::

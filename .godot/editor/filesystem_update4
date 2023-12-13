@@ -1,8 +1,11 @@
 res://main.tscn
-res://enemy_zombie.tscn
-res://death_screen.tscn
-res://super_zombie.tscn
-res://super_zombie.gd
-res://enemy_zombie.gd
+res://main.gd
 res://level_2.tscn
+res://enemy_zombie.tscn
+res://super_zombie.tscn
+res://death_screen.tscn
+res://enemy_zombie.gd
 res://level_2.gd
+res://lorax.tscn
+res://lorax.gd
+res://super_zombie.gd

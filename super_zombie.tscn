@@ -1,8 +1,12 @@
-[gd_scene load_steps=4 format=3 uid="uid://d1y2gr3nfm0ft"]
+[gd_scene load_steps=5 format=3 uid="uid://d1y2gr3nfm0ft"]
 
 [ext_resource type="Texture2D" uid="uid://crkx5hcjba1hk" path="res://bad_zombo.png" id="1_va10y"]
 [ext_resource type="Texture2D" uid="uid://ckspj60dejhs4" path="res://staffnotes (2).png" id="2_jkpwa"]
 [ext_resource type="Script" path="res://super_zombie.gd" id="2_yr4ea"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1df4u"]
+radius = 14.2075
+height = 31.6017
 
 [node name="Super_Zombie" type="Sprite2D"]
 position = Vector2(-9, 14)
@@ -41,3 +45,9 @@ texture = ExtResource("2_jkpwa")
 hframes = 7
 vframes = 6
 frame = 21
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="hurt" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(1.3278, -2.25726)
+shape = SubResource("CapsuleShape2D_1df4u")

@@ -1,8 +1,8 @@
-Label
+Node2D
 Sprite2D
 CollisionShape2D
 Area2D
+Label
 AnimatedSprite2D
 TextureRect
 RichTextLabel
-Node2D

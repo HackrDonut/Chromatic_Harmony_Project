@@ -160,7 +160,7 @@ func _process(delta):
 		
 	if Input.is_action_just_pressed("A"):
 		player_input = "C1"
-	elif Input.is_action_just_pressed("S_press"):
+	elif Input.is_action_just_pressed("S"):
 		player_input = "D1"
 	elif Input.is_action_just_pressed("D"):
 		player_input = "E1"

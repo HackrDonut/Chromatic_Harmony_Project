@@ -1,0 +1,597 @@
+[gd_scene load_steps=4 format=3 uid="uid://bjfsveo1ij5be"]
+
+[ext_resource type="Texture2D" uid="uid://bg3kcgmsgc05o" path="res://lorx.png" id="1_b8xr2"]
+[ext_resource type="Script" path="res://lorax.gd" id="2_j6jwo"]
+[ext_resource type="Texture2D" uid="uid://ckspj60dejhs4" path="res://staffnotes (2).png" id="2_qldlx"]
+
+[node name="Lorax" type="Sprite2D"]
+position = Vector2(65, 65)
+scale = Vector2(5.0625, 5.0625)
+texture = ExtResource("1_b8xr2")
+script = ExtResource("2_j6jwo")
+
+[node name="First_Set" type="Node2D" parent="."]
+visible = false
+position = Vector2(-2.37037, -23.1111)
+
+[node name="Clef" type="Sprite2D" parent="First_Set"]
+position = Vector2(-52.1481, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 34
+
+[node name="Note" type="Sprite2D" parent="First_Set"]
+position = Vector2(-38.5185, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 26
+
+[node name="Note2" type="Sprite2D" parent="First_Set"]
+position = Vector2(-25.2839, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 24
+
+[node name="Note3" type="Sprite2D" parent="First_Set"]
+position = Vector2(-10.6667, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note4" type="Sprite2D" parent="First_Set"]
+position = Vector2(0.987656, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 24
+
+[node name="Note5" type="Sprite2D" parent="First_Set"]
+position = Vector2(14.8148, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note6" type="Sprite2D" parent="First_Set"]
+position = Vector2(29.037, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 21
+
+[node name="Note7" type="Sprite2D" parent="First_Set"]
+position = Vector2(42.0741, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note8" type="Sprite2D" parent="First_Set"]
+position = Vector2(53.3333, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 24
+
+[node name="Note9" type="Sprite2D" parent="First_Set"]
+position = Vector2(-52.3889, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 8
+
+[node name="Note10" type="Sprite2D" parent="First_Set"]
+position = Vector2(-38.1667, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note11" type="Sprite2D" parent="First_Set"]
+position = Vector2(-24.7346, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note12" type="Sprite2D" parent="First_Set"]
+position = Vector2(-11.3025, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note13" type="Sprite2D" parent="First_Set"]
+position = Vector2(2.12962, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note14" type="Sprite2D" parent="First_Set"]
+position = Vector2(15.5617, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 15
+
+[node name="Note15" type="Sprite2D" parent="First_Set"]
+position = Vector2(28.2037, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note16" type="Sprite2D" parent="First_Set"]
+position = Vector2(41.6358, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note17" type="Sprite2D" parent="First_Set"]
+position = Vector2(53.3336, -9.70366)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 21
+
+[node name="Second_Set" type="Node2D" parent="."]
+visible = false
+position = Vector2(-2.37037, -23.1111)
+
+[node name="Clef" type="Sprite2D" parent="Second_Set"]
+position = Vector2(-52.1481, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 34
+
+[node name="Note" type="Sprite2D" parent="Second_Set"]
+position = Vector2(-38.5185, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 26
+
+[node name="Note2" type="Sprite2D" parent="Second_Set"]
+position = Vector2(-25.2839, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 24
+
+[node name="Note3" type="Sprite2D" parent="Second_Set"]
+position = Vector2(-10.6667, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note4" type="Sprite2D" parent="Second_Set"]
+position = Vector2(0.987656, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 24
+
+[node name="Note5" type="Sprite2D" parent="Second_Set"]
+position = Vector2(14.8148, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note6" type="Sprite2D" parent="Second_Set"]
+position = Vector2(29.037, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 21
+
+[node name="Note7" type="Sprite2D" parent="Second_Set"]
+position = Vector2(42.0741, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note8" type="Sprite2D" parent="Second_Set"]
+position = Vector2(53.3333, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 24
+
+[node name="Note9" type="Sprite2D" parent="Second_Set"]
+position = Vector2(-52.3889, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note10" type="Sprite2D" parent="Second_Set"]
+position = Vector2(-38.1667, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note11" type="Sprite2D" parent="Second_Set"]
+position = Vector2(-24.7346, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note12" type="Sprite2D" parent="Second_Set"]
+position = Vector2(-11.3025, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 15
+
+[node name="Note13" type="Sprite2D" parent="Second_Set"]
+position = Vector2(2.12962, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note14" type="Sprite2D" parent="Second_Set"]
+position = Vector2(15.5617, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 15
+
+[node name="Note15" type="Sprite2D" parent="Second_Set"]
+position = Vector2(28.2037, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note16" type="Sprite2D" parent="Second_Set"]
+position = Vector2(41.6358, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note17" type="Sprite2D" parent="Second_Set"]
+position = Vector2(53.3336, -9.70366)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Third_Set" type="Node2D" parent="."]
+visible = false
+position = Vector2(-2.37037, -23.1111)
+scale = Vector2(1, 1)
+
+[node name="Clef" type="Sprite2D" parent="Third_Set"]
+position = Vector2(-52.1481, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 34
+
+[node name="Note" type="Sprite2D" parent="Third_Set"]
+position = Vector2(-38.5185, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 26
+
+[node name="Note2" type="Sprite2D" parent="Third_Set"]
+position = Vector2(-25.2839, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 24
+
+[node name="Note3" type="Sprite2D" parent="Third_Set"]
+position = Vector2(-10.6667, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note4" type="Sprite2D" parent="Third_Set"]
+position = Vector2(0.987656, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 24
+
+[node name="Note5" type="Sprite2D" parent="Third_Set"]
+position = Vector2(14.8148, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note6" type="Sprite2D" parent="Third_Set"]
+position = Vector2(29.037, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 21
+
+[node name="Note7" type="Sprite2D" parent="Third_Set"]
+position = Vector2(42.0741, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note8" type="Sprite2D" parent="Third_Set"]
+position = Vector2(53.3333, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 24
+
+[node name="Note9" type="Sprite2D" parent="Third_Set"]
+position = Vector2(-52.3889, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 8
+
+[node name="Note10" type="Sprite2D" parent="Third_Set"]
+position = Vector2(-38.1667, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note11" type="Sprite2D" parent="Third_Set"]
+position = Vector2(-24.7346, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note12" type="Sprite2D" parent="Third_Set"]
+position = Vector2(-11.3025, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note13" type="Sprite2D" parent="Third_Set"]
+position = Vector2(2.12962, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note14" type="Sprite2D" parent="Third_Set"]
+position = Vector2(15.5617, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 15
+
+[node name="Note15" type="Sprite2D" parent="Third_Set"]
+position = Vector2(28.2037, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note16" type="Sprite2D" parent="Third_Set"]
+position = Vector2(41.6358, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note17" type="Sprite2D" parent="Third_Set"]
+position = Vector2(53.3336, -9.70366)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 21
+
+[node name="Fourth_Set" type="Node2D" parent="."]
+visible = false
+position = Vector2(-2.37037, -23.1111)
+scale = Vector2(1, 1)
+
+[node name="Clef" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(-52.1481, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 34
+
+[node name="Note" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(-38.5185, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 26
+
+[node name="Note2" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(-25.2839, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 24
+
+[node name="Note3" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(-10.6667, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note4" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(0.987656, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 24
+
+[node name="Note5" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(14.8148, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note6" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(29.037, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 21
+
+[node name="Note7" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(42.0741, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note8" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(53.3333, -29.8395)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 24
+
+[node name="Note9" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(-52.3889, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 31
+
+[node name="Note10" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(-38.1667, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 31
+
+[node name="Note11" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(-24.7346, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note12" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(-9.12964, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note13" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(6.27777, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 18
+
+[node name="Note14" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(21.8827, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 16
+
+[node name="Note15" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(37.6852, -9.70371)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
+
+[node name="Note16" type="Sprite2D" parent="Fourth_Set"]
+position = Vector2(53.3336, -9.70366)
+scale = Vector2(0.480247, 0.480247)
+texture = ExtResource("2_qldlx")
+hframes = 7
+vframes = 6
+frame = 14
