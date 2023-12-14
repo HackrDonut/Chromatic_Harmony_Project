@@ -30,7 +30,12 @@ func _process(delta):
 		get_node("Enemy_Zombie5").focus = true
 	
 	if get_node("Enemy_Zombie").focus == false and get_node("Enemy_Zombie2").visible == false and get_node("Enemy_Zombie3").visible == false and get_node("Enemy_Zombie4").visible == false and get_node("Enemy_Zombie5").visible == false:
-		get_node("vic_label").visible = true
+		get_node("enter_sign").visible = true
+		$enter_sign.play("default")
+	
+	if Input.is_action_just_pressed("Enter"):
+		if get_node("enter_sign").visible == true:
+			print("NEW SCENE!!!")
 
 func _on_area_2d_area_entered(area):
 	if area.get_parent().visible == true:

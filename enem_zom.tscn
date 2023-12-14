@@ -1,0 +1,100 @@
+[gd_scene load_steps=13 format=3 uid="uid://1a8o3wsnsfrr"]
+
+[ext_resource type="Texture2D" uid="uid://6gyxrbeaq56o" path="res://Zombie_1.png" id="1_ymcbo"]
+[ext_resource type="Script" path="res://enem_zom.gd" id="2_coo8e"]
+[ext_resource type="Texture2D" uid="uid://ckspj60dejhs4" path="res://staffnotes (2).png" id="5_kjg3x"]
+[ext_resource type="Script" path="res://Random_Note.gd" id="6_wfk43"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_brnf1"]
+atlas = ExtResource("1_ymcbo")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hiy61"]
+atlas = ExtResource("1_ymcbo")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pgk5v"]
+atlas = ExtResource("1_ymcbo")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_06us6"]
+atlas = ExtResource("1_ymcbo")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_25j48"]
+atlas = ExtResource("1_ymcbo")
+region = Rect2(0, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mpowk"]
+atlas = ExtResource("1_ymcbo")
+region = Rect2(32, 64, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_gy7pa"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_brnf1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hiy61")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pgk5v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_06us6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_25j48")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mpowk")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_epkfb"]
+radius = 12.8643
+height = 34.3704
+
+[node name="enem_zom" type="AnimatedSprite2D"]
+position = Vector2(172, 136)
+scale = Vector2(6.21875, 6.21875)
+sprite_frames = SubResource("SpriteFrames_gy7pa")
+animation = &"walk"
+frame_progress = 0.0133332
+script = ExtResource("2_coo8e")
+
+[node name="Random_Note" type="Sprite2D" parent="."]
+position = Vector2(0.501881, -26.8529)
+scale = Vector2(0.509259, 0.509259)
+texture = ExtResource("5_kjg3x")
+hframes = 7
+vframes = 6
+frame = 21
+script = ExtResource("6_wfk43")
+
+[node name="Treble_Clef" type="Sprite2D" parent="."]
+position = Vector2(-13.3252, -26.8529)
+scale = Vector2(0.509, 0.509)
+texture = ExtResource("5_kjg3x")
+hframes = 7
+vframes = 6
+frame = 34
+
+[node name="Random_Note_2" type="Sprite2D" parent="."]
+position = Vector2(13.539, -26.8531)
+scale = Vector2(0.509, 0.509)
+texture = ExtResource("5_kjg3x")
+hframes = 7
+vframes = 6
+frame = 21
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(1.60804, 1.92965)
+
+[node name="hurt" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(2.57286, 0.482412)
+shape = SubResource("CapsuleShape2D_epkfb")

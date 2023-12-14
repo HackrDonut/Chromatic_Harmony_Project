@@ -1,0 +1,107 @@
+[gd_scene load_steps=12 format=3 uid="uid://cmwdjt13t6wok"]
+
+[ext_resource type="Texture2D" uid="uid://6gyxrbeaq56o" path="res://Zombie_1.png" id="1_neldf"]
+[ext_resource type="Texture2D" uid="uid://ckspj60dejhs4" path="res://staffnotes (2).png" id="2_b38gk"]
+[ext_resource type="Script" path="res://super_zom.gd" id="2_of608"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ckslv"]
+atlas = ExtResource("1_neldf")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wic7y"]
+atlas = ExtResource("1_neldf")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tfsj2"]
+atlas = ExtResource("1_neldf")
+region = Rect2(0, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8u8p8"]
+atlas = ExtResource("1_neldf")
+region = Rect2(32, 32, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eywpr"]
+atlas = ExtResource("1_neldf")
+region = Rect2(0, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qq0vw"]
+atlas = ExtResource("1_neldf")
+region = Rect2(32, 64, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mb42e"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ckslv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wic7y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tfsj2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8u8p8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eywpr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qq0vw")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1df4u"]
+radius = 1.51254
+height = 4.08732
+
+[node name="super_zom" type="AnimatedSprite2D"]
+position = Vector2(168, 168)
+scale = Vector2(11.5, 11.5)
+sprite_frames = SubResource("SpriteFrames_mb42e")
+animation = &"walk"
+frame_progress = 0.180887
+script = ExtResource("2_of608")
+
+[node name="Clef" type="Sprite2D" parent="."]
+position = Vector2(-20.6663, -25.1648)
+scale = Vector2(0.509, 0.509)
+texture = ExtResource("2_b38gk")
+hframes = 7
+vframes = 6
+frame = 34
+
+[node name="Random_Note" type="Sprite2D" parent="."]
+position = Vector2(-6.31818, -25.1645)
+scale = Vector2(0.509, 0.509)
+texture = ExtResource("2_b38gk")
+hframes = 7
+vframes = 6
+frame = 21
+
+[node name="Random_Note_2" type="Sprite2D" parent="."]
+position = Vector2(10.2033, -25.1645)
+scale = Vector2(0.509, 0.509)
+texture = ExtResource("2_b38gk")
+hframes = 7
+vframes = 6
+frame = 21
+
+[node name="Random_Note_3" type="Sprite2D" parent="."]
+position = Vector2(26.6377, -25.1645)
+scale = Vector2(0.509, 0.509)
+texture = ExtResource("2_b38gk")
+hframes = 7
+vframes = 6
+frame = 21
+
+[node name="Area2D" type="Area2D" parent="."]
+position = Vector2(-9, 14)
+scale = Vector2(7.53125, 7.53125)
+
+[node name="hurt" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(1.70305, -1.75501)
+shape = SubResource("CapsuleShape2D_1df4u")

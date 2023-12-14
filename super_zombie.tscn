@@ -5,8 +5,8 @@
 [ext_resource type="Script" path="res://super_zombie.gd" id="2_yr4ea"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_1df4u"]
-radius = 14.2075
-height = 31.6017
+radius = 1.51254
+height = 4.08732
 
 [node name="Super_Zombie" type="Sprite2D"]
 position = Vector2(-9, 14)

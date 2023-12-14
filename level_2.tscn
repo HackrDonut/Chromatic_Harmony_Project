@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://level_2.gd" id="1_qhonk"]
 [ext_resource type="Texture2D" uid="uid://bo1w763cjgme1" path="res://guy_standing.png" id="1_thn3g"]
-[ext_resource type="PackedScene" uid="uid://d1y2gr3nfm0ft" path="res://super_zombie.tscn" id="2_ulsvx"]
+[ext_resource type="PackedScene" uid="uid://cmwdjt13t6wok" path="res://super_zom.tscn" id="4_c1sch"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_wsh12"]
 radius = 7.39156
@@ -22,22 +22,6 @@ texture = ExtResource("1_thn3g")
 position = Vector2(-3.8903, 0.778057)
 shape = SubResource("CapsuleShape2D_wsh12")
 
-[node name="Super_Zombie4" parent="." instance=ExtResource("2_ulsvx")]
-position = Vector2(865, 278)
-scale = Vector2(5.063, 5.063)
-
-[node name="Super_Zombie3" parent="." instance=ExtResource("2_ulsvx")]
-position = Vector2(776, 245)
-scale = Vector2(5.063, 5.063)
-
-[node name="Super_Zombie2" parent="." instance=ExtResource("2_ulsvx")]
-position = Vector2(690, 275)
-scale = Vector2(5.063, 5.063)
-
-[node name="Super_Zombie" parent="." instance=ExtResource("2_ulsvx")]
-position = Vector2(572, 230)
-scale = Vector2(5.063, 5.063)
-
 [node name="vic_label" type="Label" parent="."]
 visible = false
 offset_left = 454.0
@@ -47,5 +31,21 @@ offset_bottom = 273.0
 theme_override_font_sizes/font_size = 50
 text = "YOU WIN!!!!!
 (press Enter to continue)"
+
+[node name="Super_Zombie" parent="." instance=ExtResource("4_c1sch")]
+position = Vector2(539, 205)
+scale = Vector2(5.063, 5.063)
+
+[node name="Super_Zombie2" parent="." instance=ExtResource("4_c1sch")]
+position = Vector2(665, 251)
+scale = Vector2(5.063, 5.063)
+
+[node name="Super_Zombie3" parent="." instance=ExtResource("4_c1sch")]
+position = Vector2(783, 213)
+scale = Vector2(5.063, 5.063)
+
+[node name="Super_Zombie4" parent="." instance=ExtResource("4_c1sch")]
+position = Vector2(903, 254)
+scale = Vector2(5.063, 5.063)
 
 [connection signal="area_entered" from="Me/Area2D" to="." method="_on_area_2d_area_entered"]

@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=3 uid="uid://de471rbo3pw0k"]
+[gd_scene load_steps=6 format=3 uid="uid://de471rbo3pw0k"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_coq2m"]
 [ext_resource type="Texture2D" uid="uid://bo1w763cjgme1" path="res://guy_standing.png" id="2_8sus1"]
-[ext_resource type="PackedScene" uid="uid://uexmrl84c1eb" path="res://enemy_zombie.tscn" id="2_cs4gp"]
+[ext_resource type="PackedScene" uid="uid://d0jrd5o8ye13v" path="res://enter_sign.tscn" id="4_381df"]
+[ext_resource type="PackedScene" uid="uid://1a8o3wsnsfrr" path="res://enem_zom.tscn" id="4_hr3qj"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_r6di0"]
 radius = 7.39209
@@ -22,29 +23,28 @@ texture = ExtResource("2_8sus1")
 position = Vector2(-3.89057, 0.194527)
 shape = SubResource("CapsuleShape2D_r6di0")
 
-[node name="Enemy_Zombie5" parent="." instance=ExtResource("2_cs4gp")]
-position = Vector2(950, 274)
+[node name="Enemy_Zombie" parent="." instance=ExtResource("4_hr3qj")]
+position = Vector2(333, 218)
+scale = Vector2(4.79687, 4.79687)
 
-[node name="Enemy_Zombie4" parent="." instance=ExtResource("2_cs4gp")]
-position = Vector2(772, 324)
+[node name="Enemy_Zombie2" parent="." instance=ExtResource("4_hr3qj")]
+position = Vector2(479, 301)
+scale = Vector2(4.797, 4.797)
 
-[node name="Enemy_Zombie3" parent="." instance=ExtResource("2_cs4gp")]
-position = Vector2(631, 236)
+[node name="Enemy_Zombie3" parent="." instance=ExtResource("4_hr3qj")]
+position = Vector2(613, 217)
+scale = Vector2(4.797, 4.797)
 
-[node name="Enemy_Zombie2" parent="." instance=ExtResource("2_cs4gp")]
-position = Vector2(482, 346)
+[node name="Enemy_Zombie4" parent="." instance=ExtResource("4_hr3qj")]
+position = Vector2(779, 302)
+scale = Vector2(4.797, 4.797)
 
-[node name="Enemy_Zombie" parent="." instance=ExtResource("2_cs4gp")]
-position = Vector2(343, 239)
+[node name="Enemy_Zombie5" parent="." instance=ExtResource("4_hr3qj")]
+position = Vector2(966, 227)
+scale = Vector2(4.797, 4.797)
 
-[node name="vic_label" type="Label" parent="."]
+[node name="enter_sign" parent="." instance=ExtResource("4_381df")]
 visible = false
-offset_left = 338.0
-offset_top = 148.0
-offset_right = 937.0
-offset_bottom = 292.0
-theme_override_font_sizes/font_size = 50
-text = "VICTORY!!!!!!!!!!!!
-(press enter to continue)"
+position = Vector2(720, 166)
 
 [connection signal="area_entered" from="Me/Area2D" to="." method="_on_area_2d_area_entered"]

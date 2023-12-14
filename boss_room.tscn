@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://chtkeo1061vq1"]
+
+[ext_resource type="Texture2D" uid="uid://bo1w763cjgme1" path="res://guy_standing.png" id="1_a1ejk"]
+[ext_resource type="PackedScene" uid="uid://bjfsveo1ij5be" path="res://lorax.tscn" id="2_ii3b6"]
+
+[node name="boss_room" type="Node2D"]
+
+[node name="Me" type="Sprite2D" parent="."]
+position = Vector2(138, 130)
+scale = Vector2(7.28125, 6.75)
+texture = ExtResource("1_a1ejk")
+
+[node name="Lorax" parent="." instance=ExtResource("2_ii3b6")]
+position = Vector2(717, 388)
