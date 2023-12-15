@@ -8,7 +8,8 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	if get_node("Lorax").visible == false:
+		get_tree().change_scene_to_file("res://win.tscn")
 
 
 func _on_area_2d_area_entered(area):

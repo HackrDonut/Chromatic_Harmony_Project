@@ -1,8 +1,8 @@
-[gd_scene load_steps=13 format=3 uid="uid://1a8o3wsnsfrr"]
+[gd_scene load_steps=13 format=3 uid="uid://bwpgghafjl3ne"]
 
-[ext_resource type="Texture2D" uid="uid://6gyxrbeaq56o" path="res://Zombie_1.png" id="1_ymcbo"]
+[ext_resource type="Texture2D" path="res://Zombie_1.png" id="1_ymcbo"]
 [ext_resource type="Script" path="res://enem_zom.gd" id="2_coo8e"]
-[ext_resource type="Texture2D" uid="uid://ckspj60dejhs4" path="res://staffnotes (2).png" id="5_kjg3x"]
+[ext_resource type="Texture2D" path="res://staffnotes (2).png" id="5_kjg3x"]
 [ext_resource type="Script" path="res://Random_Note.gd" id="6_wfk43"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_brnf1"]

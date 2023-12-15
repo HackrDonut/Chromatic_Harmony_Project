@@ -1,7 +1,7 @@
-[gd_scene load_steps=12 format=3 uid="uid://cmwdjt13t6wok"]
+[gd_scene load_steps=12 format=3 uid="uid://bddk6eo8esyd0"]
 
-[ext_resource type="Texture2D" uid="uid://6gyxrbeaq56o" path="res://Zombie_1.png" id="1_neldf"]
-[ext_resource type="Texture2D" uid="uid://ckspj60dejhs4" path="res://staffnotes (2).png" id="2_b38gk"]
+[ext_resource type="Texture2D" path="res://Zombie_1.png" id="1_neldf"]
+[ext_resource type="Texture2D" path="res://staffnotes (2).png" id="2_b38gk"]
 [ext_resource type="Script" path="res://super_zom.gd" id="2_of608"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ckslv"]

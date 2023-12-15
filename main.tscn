@@ -1,9 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://de471rbo3pw0k"]
+[gd_scene load_steps=8 format=3 uid="uid://b4k2i2xxikhpc"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_coq2m"]
-[ext_resource type="Texture2D" uid="uid://xfguly1vxoc8" path="res://keytar_wielder.png" id="2_rhhfn"]
-[ext_resource type="PackedScene" uid="uid://d0jrd5o8ye13v" path="res://enter_sign.tscn" id="4_381df"]
-[ext_resource type="PackedScene" uid="uid://1a8o3wsnsfrr" path="res://enem_zom.tscn" id="4_hr3qj"]
+[ext_resource type="Texture2D" uid="uid://dkxycrxciudrk" path="res://apocalypse_background.png" id="2_2ojif"]
+[ext_resource type="Texture2D" path="res://keytar_wielder.png" id="2_rhhfn"]
+[ext_resource type="PackedScene" uid="uid://c1mit32klknn2" path="res://enter_sign.tscn" id="4_381df"]
+[ext_resource type="PackedScene" uid="uid://bwpgghafjl3ne" path="res://enem_zom.tscn" id="4_hr3qj"]
+[ext_resource type="PackedScene" path="res://piano.tscn" id="5_ti1gt"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_r6di0"]
 radius = 11.2827
@@ -13,8 +15,14 @@ height = 29.5684
 position = Vector2(0, -3)
 script = ExtResource("1_coq2m")
 
+[node name="bg" type="Sprite2D" parent="."]
+position = Vector2(576, 206.703)
+scale = Vector2(19.175, 16.2637)
+texture = ExtResource("2_2ojif")
+vframes = 3
+
 [node name="Me" type="Sprite2D" parent="."]
-position = Vector2(141, 250)
+position = Vector2(145, 300)
 scale = Vector2(5.14063, 5.14063)
 texture = ExtResource("2_rhhfn")
 
@@ -25,7 +33,7 @@ position = Vector2(-1.75076, -0.19453)
 shape = SubResource("CapsuleShape2D_r6di0")
 
 [node name="Enemy_Zombie" parent="." instance=ExtResource("4_hr3qj")]
-position = Vector2(460, 200)
+position = Vector2(446, 288)
 scale = Vector2(4.79687, 4.79687)
 
 [node name="Enemy_Zombie2" parent="." instance=ExtResource("4_hr3qj")]
@@ -33,7 +41,7 @@ position = Vector2(585, 297)
 scale = Vector2(4.797, 4.797)
 
 [node name="Enemy_Zombie3" parent="." instance=ExtResource("4_hr3qj")]
-position = Vector2(701, 218)
+position = Vector2(719, 296)
 scale = Vector2(4.797, 4.797)
 
 [node name="Enemy_Zombie4" parent="." instance=ExtResource("4_hr3qj")]
@@ -41,11 +49,13 @@ position = Vector2(846, 303)
 scale = Vector2(4.797, 4.797)
 
 [node name="Enemy_Zombie5" parent="." instance=ExtResource("4_hr3qj")]
-position = Vector2(966, 227)
+position = Vector2(1026, 310)
 scale = Vector2(4.797, 4.797)
 
 [node name="enter_sign" parent="." instance=ExtResource("4_381df")]
 visible = false
 position = Vector2(720, 166)
+
+[node name="piano" parent="." instance=ExtResource("5_ti1gt")]
 
 [connection signal="area_entered" from="Me/Area2D" to="." method="_on_area_2d_area_entered"]

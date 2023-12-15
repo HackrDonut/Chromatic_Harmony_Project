@@ -10,3 +10,13 @@ res://super_zom.tscn
 res://lorax.tscn
 res://death_screen.tscn
 res://enter_sign.tscn
+res://menu.tscn
+res://menu.gd
+res://story.tscn
+res://story.gd
+res://instructions.tscn
+res://instructions.gd
+res://credits.tscn
+res://credits.gd
+res://win.tscn
+res://death_screen.gd

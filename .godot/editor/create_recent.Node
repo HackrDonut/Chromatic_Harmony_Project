@@ -1,8 +1,9 @@
+Button
+Sprite2D
+Label
 CollisionShape2D
 Area2D
 AnimatedSprite2D
-Sprite2D
 Node2D
-Label
 TextureRect
 RichTextLabel

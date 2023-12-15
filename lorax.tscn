@@ -1,8 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://bjfsveo1ij5be"]
+[gd_scene load_steps=5 format=3 uid="uid://dbaawx5jci00o"]
 
-[ext_resource type="Texture2D" uid="uid://mes5uuwl6kl8" path="res://lorax_sprite.png" id="1_wr7gu"]
+[ext_resource type="Texture2D" path="res://lorax_sprite.png" id="1_wr7gu"]
 [ext_resource type="Script" path="res://lorax.gd" id="2_j6jwo"]
-[ext_resource type="Texture2D" uid="uid://ckspj60dejhs4" path="res://staffnotes (2).png" id="2_qldlx"]
+[ext_resource type="Texture2D" path="res://staffnotes (2).png" id="2_qldlx"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_45xs6"]
 radius = 14.0247
@@ -14,6 +14,7 @@ texture = ExtResource("1_wr7gu")
 script = ExtResource("2_j6jwo")
 
 [node name="First_Set" type="Node2D" parent="."]
+visible = false
 position = Vector2(-2.37037, -23.1111)
 scale = Vector2(0.7, 0.7)
 
@@ -34,7 +35,7 @@ vframes = 6
 frame = 26
 
 [node name="Note2" type="Sprite2D" parent="First_Set"]
-position = Vector2(-25.2839, -29.8395)
+position = Vector2(-27.5414, -29.8395)
 scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
@@ -42,15 +43,15 @@ vframes = 6
 frame = 24
 
 [node name="Note3" type="Sprite2D" parent="First_Set"]
-position = Vector2(-10.6667, -29.8395)
+position = Vector2(-12.642, -29.8395)
 scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note4" type="Sprite2D" parent="First_Set"]
-position = Vector2(0.987656, -29.8395)
+position = Vector2(0.141091, -29.8395)
 scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
@@ -58,15 +59,15 @@ vframes = 6
 frame = 24
 
 [node name="Note5" type="Sprite2D" parent="First_Set"]
-position = Vector2(14.8148, -29.8395)
+position = Vector2(13.6861, -29.8395)
 scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note6" type="Sprite2D" parent="First_Set"]
-position = Vector2(29.037, -29.8395)
+position = Vector2(26.2151, -29.8395)
 scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
@@ -74,12 +75,12 @@ vframes = 6
 frame = 21
 
 [node name="Note7" type="Sprite2D" parent="First_Set"]
-position = Vector2(42.0741, -29.8395)
+position = Vector2(40.6632, -29.8395)
 scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note8" type="Sprite2D" parent="First_Set"]
 position = Vector2(53.3333, -29.8395)
@@ -95,7 +96,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 8
+frame = 9
 
 [node name="Note10" type="Sprite2D" parent="First_Set"]
 position = Vector2(-38.1667, -9.70371)
@@ -135,7 +136,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 15
+frame = 16
 
 [node name="Note15" type="Sprite2D" parent="First_Set"]
 position = Vector2(28.2037, -9.70371)
@@ -143,7 +144,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note16" type="Sprite2D" parent="First_Set"]
 position = Vector2(41.6358, -9.70371)
@@ -159,7 +160,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 21
+frame = 16
 
 [node name="Second_Set" type="Node2D" parent="."]
 visible = false
@@ -196,7 +197,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note4" type="Sprite2D" parent="Second_Set"]
 position = Vector2(0.987656, -29.8395)
@@ -212,7 +213,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note6" type="Sprite2D" parent="Second_Set"]
 position = Vector2(29.037, -29.8395)
@@ -228,7 +229,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note8" type="Sprite2D" parent="Second_Set"]
 position = Vector2(53.3333, -29.8395)
@@ -244,7 +245,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note10" type="Sprite2D" parent="Second_Set"]
 position = Vector2(-38.1667, -9.70371)
@@ -252,7 +253,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note11" type="Sprite2D" parent="Second_Set"]
 position = Vector2(-24.7346, -9.70371)
@@ -260,7 +261,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note12" type="Sprite2D" parent="Second_Set"]
 position = Vector2(-11.3025, -9.70371)
@@ -268,7 +269,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 15
+frame = 16
 
 [node name="Note13" type="Sprite2D" parent="Second_Set"]
 position = Vector2(2.12962, -9.70371)
@@ -284,7 +285,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 15
+frame = 16
 
 [node name="Note15" type="Sprite2D" parent="Second_Set"]
 position = Vector2(28.2037, -9.70371)
@@ -292,7 +293,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note16" type="Sprite2D" parent="Second_Set"]
 position = Vector2(41.6358, -9.70371)
@@ -311,7 +312,6 @@ vframes = 6
 frame = 14
 
 [node name="Third_Set" type="Node2D" parent="."]
-visible = false
 position = Vector2(-2.37037, -23.1111)
 scale = Vector2(0.7, 0.7)
 
@@ -345,7 +345,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note4" type="Sprite2D" parent="Third_Set"]
 position = Vector2(0.987656, -29.8395)
@@ -361,7 +361,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note6" type="Sprite2D" parent="Third_Set"]
 position = Vector2(29.037, -29.8395)
@@ -377,7 +377,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note8" type="Sprite2D" parent="Third_Set"]
 position = Vector2(53.3333, -29.8395)
@@ -393,7 +393,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 8
+frame = 9
 
 [node name="Note10" type="Sprite2D" parent="Third_Set"]
 position = Vector2(-38.1667, -9.70371)
@@ -433,7 +433,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 15
+frame = 16
 
 [node name="Note15" type="Sprite2D" parent="Third_Set"]
 position = Vector2(28.2037, -9.70371)
@@ -441,7 +441,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note16" type="Sprite2D" parent="Third_Set"]
 position = Vector2(41.6358, -9.70371)
@@ -457,7 +457,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 21
+frame = 16
 
 [node name="Fourth_Set" type="Node2D" parent="."]
 visible = false
@@ -494,7 +494,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note4" type="Sprite2D" parent="Fourth_Set"]
 position = Vector2(0.987656, -29.8395)
@@ -510,7 +510,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note6" type="Sprite2D" parent="Fourth_Set"]
 position = Vector2(29.037, -29.8395)
@@ -526,7 +526,7 @@ scale = Vector2(0.480247, 0.480247)
 texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
-frame = 18
+frame = 20
 
 [node name="Note8" type="Sprite2D" parent="Fourth_Set"]
 position = Vector2(53.3333, -29.8395)

@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1lrcvi1lfw53"]
+
+[ext_resource type="Script" path="res://instructions.gd" id="1_1n8mh"]
+[ext_resource type="Texture2D" uid="uid://bw5xi4qreowjd" path="res://title-win-screens.png" id="1_gunk3"]
+
+[node name="instructions" type="Node2D"]
+script = ExtResource("1_1n8mh")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.494118, 0.423529, 0.368627, 1)
+position = Vector2(577.33, 325.5)
+scale = Vector2(12.94, 12.94)
+texture = ExtResource("1_gunk3")
+vframes = 2
+
+[node name="Label" type="Label" parent="."]
+offset_left = 54.0
+offset_top = 125.0
+offset_right = 696.0
+offset_bottom = 395.0
+theme_override_font_sizes/font_size = 30
+text = "You will use your keyboard to play music.
+There will be a menu at the bottom of the
+screen to show what buttons correspond to
+what notes. Enemies will have notes above
+them. Play the correct notes to defeat the
+zombies!"
+
+[node name="Button" type="Button" parent="."]
+offset_left = 848.0
+offset_top = 177.0
+offset_right = 1073.0
+offset_bottom = 296.0
+theme_override_font_sizes/font_size = 30
+text = "Back To Menu"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -1,34 +1,139 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1702657876
-bad_zombo.png::CompressedTexture2D::5988145922587471248::1702395985::1702395985::1::::<><>::
-boss_room.tscn::PackedScene::5304001539953024366::1702657659::0::1::::<><>::uid://bo1w763cjgme1::::res://guy_standing.png<>res://boss_room.gd<>uid://bjfsveo1ij5be::::res://lorax.tscn
-death_screen.tscn::PackedScene::2910215773375871522::1702657512::0::1::::<><>::
-deep_space.png::CompressedTexture2D::1463739883119876836::1701795745::1701795746::1::::<><>::
-enemy_zombie.gd::GDScript::-1::1702482274::0::1::::<>Sprite2D<>::
-enemy_zombie.tscn::PackedScene::1413453215565406769::1702657573::0::1::::<><>::uid://6hdjtfttly5k::::res://zombie.png<>res://enemy_zombie.gd<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://Random_Note.gd
-enem_zom.gd::GDScript::-1::1702655339::0::1::::<>AnimatedSprite2D<>::
-enem_zom.tscn::PackedScene::1826940101940228871::1702657580::0::1::::<><>::uid://6gyxrbeaq56o::::res://Zombie_1.png<>res://enem_zom.gd<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://Random_Note.gd
-enter_sign.tscn::PackedScene::8933601686934790773::1702657512::0::1::::<><>::uid://bquhygetcifbi::::res://New Piskel.png
-guy_standing.png::CompressedTexture2D::3424132907058453330::1701795029::1701795030::1::::<><>::
-guy_standing.tscn::PackedScene::2877500156980767110::1702314512::0::1::::<><>::uid://bo1w763cjgme1
+::res://::1702661837
+apocalypse_background.png::CompressedTexture2D::7910092883747012472::1702659911::1702659911::1::::<><>::
+bad_zombo.png::CompressedTexture2D::-1::1702658461::1702658461::1::::<><>::
+boss_room.gd::GDScript::-1::1702661815::0::1::::<>Node2D<>::
+boss_room.tscn::PackedScene::4127409238966429021::1702661815::0::1::::<><>::res://boss_room.gd<>uid://dbaawx5jci00o::::res://lorax.tscn<>res://keytar_wielder.png<>uid://dkxycrxciudrk::::res://apocalypse_background.png<>res://piano.tscn
+dead.png::CompressedTexture2D::6717712028520386301::1702661837::1702661837::1::::<><>::
+death_screen.tscn::PackedScene::6081681555254327103::1702661571::0::1::::<><>::
+deep_space.png::CompressedTexture2D::-1::1702658461::1702658461::1::::<><>::
+enemy_zombie.gd::GDScript::-1::1702658461::0::1::::<>Sprite2D<>::
+enemy_zombie.tscn::PackedScene::7376081889342243745::1702660483::0::1::::<><>::res://zombie.png<>res://enemy_zombie.gd<>res://staffnotes (2).png<>res://Random_Note.gd
+enem_zom.gd::GDScript::-1::1702658461::0::1::::<>AnimatedSprite2D<>::
+enem_zom.tscn::PackedScene::3961916294663858614::1702660483::0::1::::<><>::res://Zombie_1.png<>res://enem_zom.gd<>res://staffnotes (2).png<>res://Random_Note.gd
+enter_sign.tscn::PackedScene::6623045013883071881::1702661571::0::1::::<><>::res://New Piskel.png
+guy_standing.png::CompressedTexture2D::-1::1702658461::1702658461::1::::<><>::
+guy_standing.tscn::PackedScene::-1::1702658461::0::1::::<><>::
 icon.svg::CompressedTexture2D::6531681790889599722::1701794544::1701794552::1::::<><>::
-keytar_wielder.png::CompressedTexture2D::1625065926322202341::1702657876::1702657876::1::::<><>::
-level_2.gd::GDScript::-1::1702655499::0::1::::<>Node2D<>::
-level_2.tscn::PackedScene::3712241003903248301::1702657512::0::1::::<><>::res://level_2.gd<>uid://bo1w763cjgme1::::res://guy_standing.png<>uid://cmwdjt13t6wok::::res://super_zom.tscn<>uid://d0jrd5o8ye13v::::res://enter_sign.tscn
-lorax.gd::GDScript::-1::1702657630::0::1::::<>Sprite2D<>::
-lorax.tscn::PackedScene::3029572805660553126::1702657512::0::1::::<><>::uid://mes5uuwl6kl8::::res://lorax_sprite.png<>res://lorax.gd<>uid://ckspj60dejhs4::::res://staffnotes (2).png
-lorax_sprite.png::CompressedTexture2D::851671196738171559::1702571397::1702571397::1::::<><>::
-lorx.png::CompressedTexture2D::2865967398654161566::1702482470::1702482470::1::::<><>::
-main.gd::GDScript::-1::1702654801::0::1::::<>Node2D<>::
-main.tscn::PackedScene::7501874650025106412::1702657791::0::1::::<><>::res://main.gd<>uid://bo1w763cjgme1::::res://guy_standing.png<>uid://d0jrd5o8ye13v::::res://enter_sign.tscn<>uid://1a8o3wsnsfrr::::res://enem_zom.tscn
-New Piskel.png::CompressedTexture2D::3551197937171481982::1702573714::1702573714::1::::<><>::
-Random_Note.gd::GDScript::-1::1701882697::0::1::::<>Sprite2D<>::
+key.tscn::PackedScene::-1::1702658675::0::1::::<><>::
+keytar_wielder.png::CompressedTexture2D::-1::1702658461::1702658461::1::::<><>::
+level_2.gd::GDScript::-1::1702658461::0::1::::<>Node2D<>::
+level_2.tscn::PackedScene::6601763751937186728::1702661571::0::1::::<><>::res://level_2.gd<>res://keytar_wielder.png<>uid://dkxycrxciudrk::::res://apocalypse_background.png<>uid://bddk6eo8esyd0::::res://super_zom.tscn<>uid://c1mit32klknn2::::res://enter_sign.tscn<>res://piano.tscn
+lorax.gd::GDScript::-1::1702659885::0::1::::<>Sprite2D<>::
+lorax.tscn::PackedScene::7229491436976364740::1702660483::0::1::::<><>::res://lorax_sprite.png<>res://lorax.gd<>res://staffnotes (2).png
+lorax_sprite.png::CompressedTexture2D::-1::1702658461::1702658461::1::::<><>::
+lorx.png::CompressedTexture2D::-1::1702658461::1702658461::1::::<><>::
+main.gd::GDScript::-1::1702658461::0::1::::<>Node2D<>::
+main.tscn::PackedScene::4444196026609634188::1702661571::0::1::::<><>::res://main.gd<>uid://dkxycrxciudrk::::res://apocalypse_background.png<>res://keytar_wielder.png<>uid://c1mit32klknn2::::res://enter_sign.tscn<>uid://bwpgghafjl3ne::::res://enem_zom.tscn<>res://piano.tscn
+New Piskel.png::CompressedTexture2D::-1::1702658461::1702658461::1::::<><>::
+piano.gd::GDScript::-1::1702658675::0::1::::<>Node2D<>::
+piano.tscn::PackedScene::-1::1702658675::0::1::::<><>::
+Random_Note.gd::GDScript::-1::1702658461::0::1::::<>Sprite2D<>::
 README.md::TextFile::-1::1701794602::0::1::::<><>::
-boss_room.gd::GDScript::-1::1702657659::0::1::::<>Node2D<>::
-staffnotes (2).png::CompressedTexture2D::5512817097362221893::1701880911::1701880911::1::::<><>::
-super_zom.gd::GDScript::-1::1702572760::0::1::::<>AnimatedSprite2D<>::
-super_zom.tscn::PackedScene::5660723064162743398::1702657512::0::1::::<><>::uid://6gyxrbeaq56o::::res://Zombie_1.png<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://super_zom.gd
-super_zombie.gd::GDScript::-1::1702484209::0::1::::<>Sprite2D<>::
-super_zombie.tscn::PackedScene::9035368062083022705::1702657512::0::1::::<><>::uid://crkx5hcjba1hk::::res://bad_zombo.png<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://super_zombie.gd
-zombie.png::CompressedTexture2D::2190504026737665166::1701795901::1701795902::1::::<><>::
-Zombie_1.png::CompressedTexture2D::2189739595013733476::1702571543::1702571543::1::::<><>::
+menu.tscn::PackedScene::7626911399752269509::1702661650::0::1::::<><>::uid://bw5xi4qreowjd::::res://title-win-screens.png<>res://menu.gd
+menu.gd::GDScript::-1::1702661381::0::1::::<>Node2D<>::
+instructions.tscn::PackedScene::6621496334279573384::1702661382::0::1::::<><>::res://instructions.gd<>uid://bw5xi4qreowjd::::res://title-win-screens.png
+instructions.gd::GDScript::-1::1702661166::0::1::::<>Node2D<>::
+credits.tscn::PackedScene::3447523673223053848::1702661383::0::1::::<><>::res://credits.gd<>uid://bw5xi4qreowjd::::res://title-win-screens.png
+credits.gd::GDScript::-1::1702661295::0::1::::<>Node2D<>::
+win.tscn::PackedScene::8924926982603374573::1702661429::0::1::::<><>::uid://bw5xi4qreowjd::::res://title-win-screens.png
+story.gd::GDScript::-1::1702660894::0::1::::<>Node2D<>::
+story.tscn::PackedScene::1064961681547060241::1702661382::0::1::::<><>::res://story.gd<>uid://bw5xi4qreowjd::::res://title-win-screens.png
+staffnotes (2).png::CompressedTexture2D::-1::1702658461::1702658461::1::::<><>::
+super_zom.gd::GDScript::-1::1702658461::0::1::::<>AnimatedSprite2D<>::
+super_zom.tscn::PackedScene::2603843110634206031::1702660484::0::1::::<><>::res://Zombie_1.png<>res://staffnotes (2).png<>res://super_zom.gd
+super_zombie.gd::GDScript::-1::1702658461::0::1::::<>Sprite2D<>::
+super_zombie.tscn::PackedScene::1660867644710889133::1702660483::0::1::::<><>::res://bad_zombo.png<>res://staffnotes (2).png<>res://super_zombie.gd
+title-win-screens.png::CompressedTexture2D::3993918902208823005::1702660288::1702660289::1::::<><>::
+zombie.png::CompressedTexture2D::-1::1702658461::1702658461::1::::<><>::
+Zombie_1.png::CompressedTexture2D::-1::1702658461::1702658461::1::::<><>::
+::res://piano-mp3/::1702658676
+A0.mp3::AudioStreamMP3::2051161431936280484::1702658675::1702658676::1::::<><>::
+A1.mp3::AudioStreamMP3::8682497348054158243::1702658675::1702658676::1::::<><>::
+A2.mp3::AudioStreamMP3::2941661850581873664::1702658675::1702658676::1::::<><>::
+A3.mp3::AudioStreamMP3::4179092936025549778::1702658675::1702658676::1::::<><>::
+A4.mp3::AudioStreamMP3::8978051021599292879::1702658675::1702658676::1::::<><>::
+A5.mp3::AudioStreamMP3::3166167265535224034::1702658675::1702658676::1::::<><>::
+A6.mp3::AudioStreamMP3::4560323141254413008::1702658675::1702658676::1::::<><>::
+A7.mp3::AudioStreamMP3::9050451886536646882::1702658675::1702658676::1::::<><>::
+Ab1.mp3::AudioStreamMP3::693318557490970113::1702658675::1702658676::1::::<><>::
+Ab2.mp3::AudioStreamMP3::8593759196220756207::1702658675::1702658676::1::::<><>::
+Ab3.mp3::AudioStreamMP3::7232959789904013784::1702658675::1702658676::1::::<><>::
+Ab4.mp3::AudioStreamMP3::8686970768887679159::1702658675::1702658676::1::::<><>::
+Ab5.mp3::AudioStreamMP3::198777671235026987::1702658675::1702658676::1::::<><>::
+Ab6.mp3::AudioStreamMP3::3502348953689620273::1702658675::1702658676::1::::<><>::
+Ab7.mp3::AudioStreamMP3::4427524458625315530::1702658675::1702658676::1::::<><>::
+B0.mp3::AudioStreamMP3::1244534510634768602::1702658675::1702658676::1::::<><>::
+B1.mp3::AudioStreamMP3::4031348436132351665::1702658675::1702658676::1::::<><>::
+B2.mp3::AudioStreamMP3::174142078608339595::1702658675::1702658676::1::::<><>::
+B3.mp3::AudioStreamMP3::1609337382123135676::1702658675::1702658676::1::::<><>::
+B4.mp3::AudioStreamMP3::9214112349616857171::1702658675::1702658676::1::::<><>::
+B5.mp3::AudioStreamMP3::3304829682162220175::1702658675::1702658676::1::::<><>::
+B6.mp3::AudioStreamMP3::7066646441039439157::1702658675::1702658676::1::::<><>::
+B7.mp3::AudioStreamMP3::5151178558799225217::1702658675::1702658676::1::::<><>::
+Bb0.mp3::AudioStreamMP3::3349754737054983252::1702658675::1702658676::1::::<><>::
+Bb1.mp3::AudioStreamMP3::3608234925354672097::1702658675::1702658676::1::::<><>::
+Bb2.mp3::AudioStreamMP3::5678678580697508372::1702658675::1702658676::1::::<><>::
+Bb3.mp3::AudioStreamMP3::4171043207862565782::1702658675::1702658676::1::::<><>::
+Bb4.mp3::AudioStreamMP3::5140094236749309454::1702658675::1702658676::1::::<><>::
+Bb5.mp3::AudioStreamMP3::8655268485262919831::1702658675::1702658676::1::::<><>::
+Bb6.mp3::AudioStreamMP3::5554634432718669272::1702658675::1702658676::1::::<><>::
+Bb7.mp3::AudioStreamMP3::1036154669576303235::1702658675::1702658676::1::::<><>::
+C1.mp3::AudioStreamMP3::2748662899982103319::1702658675::1702658676::1::::<><>::
+C2.mp3::AudioStreamMP3::9003075791757912150::1702658675::1702658676::1::::<><>::
+C3.mp3::AudioStreamMP3::3863545514230620475::1702658675::1702658676::1::::<><>::
+C4.mp3::AudioStreamMP3::8801554690159284434::1702658675::1702658676::1::::<><>::
+C5.mp3::AudioStreamMP3::3909936422736867473::1702658675::1702658676::1::::<><>::
+C6.mp3::AudioStreamMP3::8907881223220434381::1702658675::1702658676::1::::<><>::
+C7.mp3::AudioStreamMP3::3383837815673189920::1702658675::1702658676::1::::<><>::
+C8.mp3::AudioStreamMP3::65742093397401865::1702658675::1702658676::1::::<><>::
+D1.mp3::AudioStreamMP3::4156483059970484341::1702658675::1702658676::1::::<><>::
+D2.mp3::AudioStreamMP3::1663670165711626488::1702658675::1702658676::1::::<><>::
+D3.mp3::AudioStreamMP3::1978842845207516866::1702658675::1702658676::1::::<><>::
+D4.mp3::AudioStreamMP3::1935541194954097857::1702658675::1702658676::1::::<><>::
+D5.mp3::AudioStreamMP3::6188023102279140506::1702658675::1702658676::1::::<><>::
+D6.mp3::AudioStreamMP3::8971083336407737544::1702658675::1702658676::1::::<><>::
+D7.mp3::AudioStreamMP3::2020624862782731463::1702658675::1702658676::1::::<><>::
+Db1.mp3::AudioStreamMP3::3026424842964919123::1702658675::1702658676::1::::<><>::
+Db2.mp3::AudioStreamMP3::4560250021898099617::1702658675::1702658676::1::::<><>::
+Db3.mp3::AudioStreamMP3::6137402931060360143::1702658675::1702658676::1::::<><>::
+Db4.mp3::AudioStreamMP3::1401460474396898431::1702658675::1702658676::1::::<><>::
+Db5.mp3::AudioStreamMP3::5529317349816394546::1702658675::1702658676::1::::<><>::
+Db6.mp3::AudioStreamMP3::7408466205868884966::1702658675::1702658676::1::::<><>::
+Db7.mp3::AudioStreamMP3::679308188128196900::1702658675::1702658676::1::::<><>::
+Db8.mp3::AudioStreamMP3::6983939903750759116::1702658675::1702658676::1::::<><>::
+E1.mp3::AudioStreamMP3::4171142040201262307::1702658675::1702658676::1::::<><>::
+E2.mp3::AudioStreamMP3::8902340619326978301::1702658675::1702658676::1::::<><>::
+E3.mp3::AudioStreamMP3::5681980221677557535::1702658675::1702658676::1::::<><>::
+E4.mp3::AudioStreamMP3::3992857168400929761::1702658675::1702658676::1::::<><>::
+E5.mp3::AudioStreamMP3::1318839678939828666::1702658675::1702658676::1::::<><>::
+E6.mp3::AudioStreamMP3::1028168383331993603::1702658675::1702658676::1::::<><>::
+E7.mp3::AudioStreamMP3::5472956011044099038::1702658675::1702658676::1::::<><>::
+Eb1.mp3::AudioStreamMP3::2230223503772639555::1702658675::1702658676::1::::<><>::
+Eb2.mp3::AudioStreamMP3::2323237713242961555::1702658675::1702658676::1::::<><>::
+Eb3.mp3::AudioStreamMP3::5611767045079252781::1702658675::1702658676::1::::<><>::
+Eb4.mp3::AudioStreamMP3::5505553922386960584::1702658675::1702658676::1::::<><>::
+Eb5.mp3::AudioStreamMP3::3207307320235046827::1702658675::1702658676::1::::<><>::
+Eb6.mp3::AudioStreamMP3::8026139631885419509::1702658675::1702658676::1::::<><>::
+Eb7.mp3::AudioStreamMP3::609247761617085054::1702658675::1702658676::1::::<><>::
+F1.mp3::AudioStreamMP3::6304214519473795148::1702658675::1702658676::1::::<><>::
+F2.mp3::AudioStreamMP3::4468976282754714159::1702658675::1702658676::1::::<><>::
+F3.mp3::AudioStreamMP3::2783614893757131383::1702658675::1702658676::1::::<><>::
+F4.mp3::AudioStreamMP3::7164823071732216381::1702658675::1702658676::1::::<><>::
+F5.mp3::AudioStreamMP3::276674604564231559::1702658675::1702658676::1::::<><>::
+F6.mp3::AudioStreamMP3::8221694091588409572::1702658675::1702658676::1::::<><>::
+F7.mp3::AudioStreamMP3::1711208603456541383::1702658675::1702658676::1::::<><>::
+G1.mp3::AudioStreamMP3::2423174396032994038::1702658675::1702658676::1::::<><>::
+G2.mp3::AudioStreamMP3::1418056017896143497::1702658675::1702658676::1::::<><>::
+G3.mp3::AudioStreamMP3::2035227829806394441::1702658675::1702658676::1::::<><>::
+G4.mp3::AudioStreamMP3::7206967850905495012::1702658675::1702658676::1::::<><>::
+G5.mp3::AudioStreamMP3::7204749956374835054::1702658675::1702658676::1::::<><>::
+G6.mp3::AudioStreamMP3::9139815053478672394::1702658675::1702658676::1::::<><>::
+G7.mp3::AudioStreamMP3::2166874239507082966::1702658675::1702658676::1::::<><>::
+Gb1.mp3::AudioStreamMP3::2019032743182857587::1702658675::1702658676::1::::<><>::
+Gb2.mp3::AudioStreamMP3::2443926952513496282::1702658675::1702658676::1::::<><>::
+Gb3.mp3::AudioStreamMP3::2013965909776081585::1702658675::1702658676::1::::<><>::
+Gb4.mp3::AudioStreamMP3::5360384105091070912::1702658675::1702658676::1::::<><>::
+Gb5.mp3::AudioStreamMP3::8513466349352178106::1702658675::1702658676::1::::<><>::
+Gb6.mp3::AudioStreamMP3::8561854642776899406::1702658675::1702658676::1::::<><>::
+Gb7.mp3::AudioStreamMP3::8605923960796497927::1702658675::1702658676::1::::<><>::

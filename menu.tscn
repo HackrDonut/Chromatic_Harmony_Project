@@ -1,0 +1,50 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgwsd7u47gxp2"]
+
+[ext_resource type="Texture2D" uid="uid://bw5xi4qreowjd" path="res://title-win-screens.png" id="1_iad83"]
+[ext_resource type="Script" path="res://menu.gd" id="1_io0v7"]
+
+[node name="menu" type="Node2D"]
+script = ExtResource("1_io0v7")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(577.33, 325.5)
+scale = Vector2(12.94, 12.94)
+texture = ExtResource("1_iad83")
+vframes = 2
+
+[node name="Button" type="Button" parent="."]
+offset_left = 113.0
+offset_top = 360.0
+offset_right = 269.0
+offset_bottom = 444.0
+theme_override_font_sizes/font_size = 40
+text = "Play"
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 899.0
+offset_top = 362.0
+offset_right = 1055.0
+offset_bottom = 446.0
+theme_override_font_sizes/font_size = 40
+text = "Story"
+
+[node name="Button4" type="Button" parent="."]
+offset_left = 888.0
+offset_top = 481.0
+offset_right = 1068.0
+offset_bottom = 565.0
+theme_override_font_sizes/font_size = 40
+text = "Credits"
+
+[node name="Button3" type="Button" parent="."]
+offset_left = 71.0
+offset_top = 483.0
+offset_right = 313.0
+offset_bottom = 567.0
+theme_override_font_sizes/font_size = 40
+text = "How To Play"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button4" to="." method="_on_button_4_pressed"]
+[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]

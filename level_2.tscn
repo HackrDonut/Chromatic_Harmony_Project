@@ -1,46 +1,57 @@
-[gd_scene load_steps=6 format=3 uid="uid://bs5icjofg6cqn"]
+[gd_scene load_steps=8 format=3 uid="uid://c1b7c4v2fgv6w"]
 
 [ext_resource type="Script" path="res://level_2.gd" id="1_qhonk"]
-[ext_resource type="Texture2D" uid="uid://bo1w763cjgme1" path="res://guy_standing.png" id="1_thn3g"]
-[ext_resource type="PackedScene" uid="uid://cmwdjt13t6wok" path="res://super_zom.tscn" id="4_c1sch"]
-[ext_resource type="PackedScene" uid="uid://d0jrd5o8ye13v" path="res://enter_sign.tscn" id="4_qm8kc"]
+[ext_resource type="Texture2D" path="res://keytar_wielder.png" id="2_o3xxr"]
+[ext_resource type="Texture2D" uid="uid://dkxycrxciudrk" path="res://apocalypse_background.png" id="2_pihka"]
+[ext_resource type="PackedScene" uid="uid://bddk6eo8esyd0" path="res://super_zom.tscn" id="4_c1sch"]
+[ext_resource type="PackedScene" uid="uid://c1mit32klknn2" path="res://enter_sign.tscn" id="4_qm8kc"]
+[ext_resource type="PackedScene" path="res://piano.tscn" id="5_jqoib"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_wsh12"]
-radius = 7.39156
-height = 25.6759
+radius = 11.2819
+height = 33.4565
 
 [node name="Level_2" type="Node2D"]
 script = ExtResource("1_qhonk")
 
+[node name="bg" type="Sprite2D" parent="."]
+position = Vector2(576, 206.703)
+scale = Vector2(19.175, 16.264)
+texture = ExtResource("2_pihka")
+vframes = 3
+frame = 1
+
 [node name="Me" type="Sprite2D" parent="."]
-position = Vector2(151, 250)
+position = Vector2(146, 305)
 scale = Vector2(5.141, 5.141)
-texture = ExtResource("1_thn3g")
+texture = ExtResource("2_o3xxr")
 
 [node name="Area2D" type="Area2D" parent="Me"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Me/Area2D"]
-position = Vector2(-3.8903, 0.778057)
+position = Vector2(-3.30675, -0.972572)
 shape = SubResource("CapsuleShape2D_wsh12")
 
 [node name="Super_Zombie" parent="." instance=ExtResource("4_c1sch")]
-position = Vector2(539, 205)
+position = Vector2(661, 289)
 scale = Vector2(5.063, 5.063)
 
 [node name="Super_Zombie2" parent="." instance=ExtResource("4_c1sch")]
-position = Vector2(665, 251)
+position = Vector2(787, 294)
 scale = Vector2(5.063, 5.063)
 
 [node name="Super_Zombie3" parent="." instance=ExtResource("4_c1sch")]
-position = Vector2(783, 213)
+position = Vector2(912, 300)
 scale = Vector2(5.063, 5.063)
 
 [node name="Super_Zombie4" parent="." instance=ExtResource("4_c1sch")]
-position = Vector2(903, 254)
+position = Vector2(1041, 305)
 scale = Vector2(5.063, 5.063)
 
 [node name="enter_sign" parent="." instance=ExtResource("4_qm8kc")]
 visible = false
 position = Vector2(711, 151)
+
+[node name="piano" parent="." instance=ExtResource("5_jqoib")]
 
 [connection signal="area_entered" from="Me/Area2D" to="." method="_on_area_2d_area_entered"]

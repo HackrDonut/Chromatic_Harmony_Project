@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0fkijo1d8qm4"]
+
+[ext_resource type="Texture2D" uid="uid://bw5xi4qreowjd" path="res://title-win-screens.png" id="1_ujaah"]
+
+[node name="win" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(577.33, 325.5)
+scale = Vector2(12.94, 12.94)
+texture = ExtResource("1_ujaah")
+vframes = 2
+frame = 1
