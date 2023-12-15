@@ -21,7 +21,12 @@ func _process(delta):
 		get_node("Super_Zombie4").focus = true
 	
 	if get_node("Super_Zombie").visible == false and get_node("Super_Zombie2").visible == false and get_node("Super_Zombie3").visible == false and get_node("Super_Zombie4").visible == false:
-		get_node("vic_label").visible = true
+		get_node("enter_sign").visible = true
+		$enter_sign.play("default")
+		
+	if Input.is_action_just_pressed("Enter"):
+		if get_node("enter_sign").visible == true:
+			get_tree().change_scene_to_file("res://boss_room.tscn")
 
 
 func _on_area_2d_area_entered(area):

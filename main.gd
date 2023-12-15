@@ -35,7 +35,7 @@ func _process(delta):
 	
 	if Input.is_action_just_pressed("Enter"):
 		if get_node("enter_sign").visible == true:
-			print("NEW SCENE!!!")
+			get_tree().change_scene_to_file("res://level_2.tscn")
 
 func _on_area_2d_area_entered(area):
 	if area.get_parent().visible == true:

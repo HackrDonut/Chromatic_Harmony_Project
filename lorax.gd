@@ -260,102 +260,170 @@ func _process(delta):
 				first_1.frame = 7
 				player_input = ""
 				n1_1c = true
+			else:
+				if player_input != "":
+					position.x -= 12
+					player_input = ""
 		else:
 			if n1_2c == false:
 				if player_input == n1_2:
 					first_2.frame = 7
 					player_input = ""
 					n1_2c = true
+				else:
+					if player_input != "":
+						position.x -= 12
+						player_input = ""
 			else:
 				if n1_3c == false:
 					if player_input == n1_3:
 						first_3.frame = 7
 						player_input = ""
 						n1_3c = true
+					else:
+						if player_input != "":
+							position.x -= 12
+							player_input = ""
 				else:
 					if n1_4c == false:
 						if player_input == n1_4:
 							first_4.frame = 7
 							player_input = ""
 							n1_4c = true
+						else:
+							if player_input != "":
+								position.x -= 12
+								player_input = ""
 					else:
 						if n1_5c == false:
 							if player_input == n1_5:
 								first_5.frame = 7
 								player_input = ""
 								n1_5c = true
+							else:
+								if player_input != "":
+									position.x -= 12
+									player_input = ""
 						else:
 							if n1_6c == false:
 								if player_input == n1_6:
 									first_6.frame = 7
 									player_input = ""
 									n1_6c = true
+								else:
+									if player_input != "":
+										position.x -= 12
+										player_input = ""
 							else:
 								if n1_7c == false:
 									if player_input == n1_7:
 										first_7.frame = 7
 										player_input = ""
 										n1_7c = true
+									else:
+										if player_input != "":
+											position.x -= 12
+											player_input = ""
 								else:
 									if n1_8c == false:
 										if player_input == n1_8:
 											first_8.frame = 7
 											player_input = ""
 											n1_8c = true
+										else:
+											if player_input != "":
+												position.x -= 12
+												player_input = ""
 									else:
 										if n1_9c == false:
 											if player_input == n1_9:
 												first_9.frame = 7
 												player_input = ""
 												n1_9c = true
+											else:
+												if player_input != "":
+													position.x -= 12
+													player_input = ""
 										else:
 											if n1_10c == false:
 												if player_input == n1_10:
 													first_10.frame = 7
 													player_input = ""
 													n1_10c = true
+												else:
+													if player_input != "":
+														position.x -= 12
+														player_input = ""
 											else:
 												if n1_11c == false:
 													if player_input == n1_11:
 														first_11.frame = 7
 														player_input = ""
 														n1_11c = true
+													else:
+														if player_input != "":
+															position.x -= 12
+															player_input = ""
 												else:
 													if n1_12c == false:
 														if player_input == n1_12:
 															first_12.frame = 7
 															player_input = ""
 															n1_12c = true
+														else:
+															if player_input != "":
+																position.x -= 12
+																player_input = ""
 													else:
 														if n1_13c == false:
 															if player_input == n1_13:
 																first_13.frame = 7
 																player_input = ""
 																n1_13c = true
+															else:
+																if player_input != "":
+																	position.x -= 12
+																	player_input = ""
 														else:
 															if n1_14c == false:
 																if player_input == n1_14:
 																	first_14.frame = 7
 																	player_input = ""
 																	n1_14c = true
+																else:
+																	if player_input != "":
+																		position.x -= 12
+																		player_input = ""
 															else:
 																if n1_15c == false:
 																	if player_input == n1_15:
 																		first_15.frame = 7
 																		player_input = ""
 																		n1_15c = true
+																	else:
+																		if player_input != "":
+																			position.x -= 12
+																			player_input = ""
 																else:
 																	if n1_16c == false:
 																		if player_input == n1_16:
 																			first_16.frame = 7
 																			player_input = ""
 																			n1_16c = true
+																		else:
+																			if player_input != "":
+																				position.x -= 12
+																				player_input = ""
 																	else:
 																		if n1_17c == false:
 																			if player_input == n1_17:
 																				first_16.frame = 7
 																				player_input = ""
 																				n1_17c = true
+																			else:
+																				if player_input != "":
+																					position.x -= 12
+																					player_input = ""
 																		else:
 																			first_set.visible = false
 																			second_set.visible = true
@@ -365,102 +433,170 @@ func _process(delta):
 				second_1.frame = 7
 				player_input = ""
 				n2_1c = true
+			else:
+				if player_input != "":
+					position.x -= 12
+					player_input = ""
 		else:
 			if n2_2c == false:
 				if player_input == n2_2:
 					second_2.frame = 7
 					player_input = ""
 					n2_2c = true
+				else:
+					if player_input != "":
+						position.x -= 12
+						player_input = ""
 			else:
 				if n2_3c == false:
 					if player_input == n2_3:
 						second_3.frame = 7
 						player_input = ""
 						n2_3c = true
+					else:
+						if player_input != "":
+							position.x -= 12
+							player_input = ""
 				else:
 					if n2_4c == false:
 						if player_input == n2_4:
 							second_4.frame = 7
 							player_input = ""
 							n2_4c = true
+						else:
+							if player_input != "":
+								position.x -= 12
+								player_input = ""
 					else:
 						if n2_5c == false:
 							if player_input == n2_5:
 								second_5.frame = 7
 								player_input = ""
 								n2_5c = true
+							else:
+								if player_input != "":
+									position.x -= 12
+									player_input = ""
 						else:
 							if n2_6c == false:
 								if player_input == n2_6:
 									second_6.frame = 7
 									player_input = ""
 									n2_6c = true
+								else:
+									if player_input != "":
+										position.x -= 12
+										player_input = ""
 							else:
 								if n2_7c == false:
 									if player_input == n2_7:
 										second_7.frame = 7
 										player_input = ""
 										n2_7c = true
+									else:
+										if player_input != "":
+											position.x -= 12
+											player_input = ""
 								else:
 									if n2_8c == false:
 										if player_input == n2_8:
 											second_8.frame = 7
 											player_input = ""
 											n2_8c = true
+										else:
+											if player_input != "":
+												position.x -= 12
+												player_input = ""
 									else:
 										if n2_9c == false:
 											if player_input == n2_9:
 												second_9.frame = 7
 												player_input = ""
 												n2_9c = true
+											else:
+												if player_input != "":
+													position.x -= 12
+													player_input = ""
 										else:
 											if n2_10c == false:
 												if player_input == n2_10:
 													second_10.frame = 7
 													player_input = ""
 													n2_10c = true
+												else:
+													if player_input != "":
+														position.x -= 12
+														player_input = ""
 											else:
 												if n2_11c == false:
 													if player_input == n2_11:
 														second_11.frame = 7
 														player_input = ""
 														n2_11c = true
+													else:
+														if player_input != "":
+															position.x -= 12
+															player_input = ""
 												else:
 													if n2_12c == false:
 														if player_input == n2_12:
 															second_12.frame = 7
 															player_input = ""
 															n2_12c = true
+														else:
+															if player_input != "":
+																position.x -= 12
+																player_input = ""
 													else:
 														if n2_13c == false:
 															if player_input == n2_13:
 																second_13.frame = 7
 																player_input = ""
 																n2_13c = true
+															else:
+																if player_input != "":
+																	position.x -= 12
+																	player_input = ""
 														else:
 															if n2_14c == false:
 																if player_input == n2_14:
 																	second_14.frame = 7
 																	player_input = ""
 																	n2_14c = true
+																else:
+																	if player_input != "":
+																		position.x -= 12
+																		player_input = ""
 															else:
 																if n2_15c == false:
 																	if player_input == n2_15:
 																		second_15.frame = 7
 																		player_input = ""
 																		n2_15c = true
+																	else:
+																		if player_input != "":
+																			position.x -= 12
+																			player_input = ""
 																else:
 																	if n2_16c == false:
 																		if player_input == n2_16:
 																			second_16.frame = 7
 																			player_input = ""
 																			n2_16c = true
+																		else:
+																			if player_input != "":
+																				position.x -= 12
+																				player_input = ""
 																	else:
 																		if n2_17c == false:
 																			if player_input == n2_17:
 																				second_17.frame = 7
 																				player_input = ""
 																				n2_17c = true
+																			else:
+																				if player_input != "":
+																					position.x -= 12
+																					player_input = ""
 																		else:
 																			second_set.visible = false
 																			third_set.visible = true
@@ -470,102 +606,170 @@ func _process(delta):
 				third_1.frame = 7
 				player_input = ""
 				n3_1c = true
+			else:
+				if player_input != "":
+					position.x -= 12
+					player_input = ""
 		else:
 			if n3_2c == false:
 				if player_input == n3_2:
 					third_2.frame = 7
 					player_input = ""
 					n3_2c = true
+				else:
+					if player_input != "":
+						position.x -= 12
+						player_input = ""
 			else:
 				if n3_3c == false:
 					if player_input == n3_3:
 						third_3.frame = 7
 						player_input = ""
 						n3_3c = true
+					else:
+						if player_input != "":
+							position.x -= 12
+							player_input = ""
 				else:
 					if n3_4c == false:
 						if player_input == n3_4:
 							third_4.frame = 7
 							player_input = ""
 							n3_4c = true
+						else:
+							if player_input != "":
+								position.x -= 12
+								player_input = ""
 					else:
 						if n3_5c == false:
 							if player_input == n3_5:
 								third_5.frame = 7
 								player_input = ""
 								n3_5c = true
+							else:
+								if player_input != "":
+									position.x -= 12
+									player_input = ""
 						else:
 							if n3_6c == false:
 								if player_input == n3_6:
 									third_6.frame = 7
 									player_input = ""
 									n3_6c = true
+								else:
+									if player_input != "":
+										position.x -= 12
+										player_input = ""
 							else:
 								if n3_7c == false:
 									if player_input == n3_7:
 										third_7.frame = 7
 										player_input = ""
 										n3_7c = true
+									else:
+										if player_input != "":
+											position.x -= 12
+											player_input = ""
 								else:
 									if n3_8c == false:
 										if player_input == n3_8:
 											third_8.frame = 7
 											player_input = ""
 											n3_8c = true
+										else:
+											if player_input != "":
+												position.x -= 12
+												player_input = ""
 									else:
 										if n3_9c == false:
 											if player_input == n3_9:
 												third_9.frame = 7
 												player_input = ""
 												n3_9c = true
+											else:
+												if player_input != "":
+													position.x -= 12
+													player_input = ""
 										else:
 											if n3_10c == false:
 												if player_input == n3_10:
 													third_10.frame = 7
 													player_input = ""
 													n3_10c = true
+												else:
+													if player_input != "":
+														position.x -= 12
+														player_input = ""
 											else:
 												if n3_11c == false:
 													if player_input == n3_11:
 														third_11.frame = 7
 														player_input = ""
 														n3_11c = true
+													else:
+														if player_input != "":
+															position.x -= 12
+															player_input = ""
 												else:
 													if n3_12c == false:
 														if player_input == n3_12:
 															third_12.frame = 7
 															player_input = ""
 															n3_12c = true
+														else:
+															if player_input != "":
+																position.x -= 12
+																player_input = ""
 													else:
 														if n3_13c == false:
 															if player_input == n3_13:
 																third_13.frame = 7
 																player_input = ""
 																n3_13c = true
+															else:
+																if player_input != "":
+																	position.x -= 12
+																	player_input = ""
 														else:
 															if n3_14c == false:
 																if player_input == n3_14:
 																	third_14.frame = 7
 																	player_input = ""
 																	n3_14c = true
+																else:
+																	if player_input != "":
+																		position.x -= 12
+																		player_input = ""
 															else:
 																if n3_15c == false:
 																	if player_input == n3_15:
 																		third_15.frame = 7
 																		player_input = ""
 																		n3_15c = true
+																	else:
+																		if player_input != "":
+																			position.x -= 12
+																			player_input = ""
 																else:
 																	if n3_16c == false:
 																		if player_input == n3_16:
 																			third_16.frame = 7
 																			player_input = ""
 																			n3_16c = true
+																		else:
+																			if player_input != "":
+																				position.x -= 12
+																				player_input = ""
 																	else:
 																		if n3_17c == false:
 																			if player_input == n3_17:
 																				third_17.frame = 7
 																				player_input = ""
 																				n3_17c = true
+																			else:
+																				if player_input != "":
+																					position.x -= 12
+																					player_input = ""
 																		else:
 																			third_set.visible = false
 																			fourth_set.visible = true
@@ -575,95 +779,160 @@ func _process(delta):
 				fourth_1.frame = 7
 				player_input = ""
 				n4_1c = true
+			else:
+				if player_input != "":
+					position.x -= 12
+					player_input = ""
 		else:
 			if n4_2c == false:
 				if player_input == n4_2:
 					fourth_2.frame = 7
 					player_input = ""
 					n4_2c = true
+				else:
+					if player_input != "":
+						position.x -= 12
+						player_input = ""
 			else:
 				if n4_3c == false:
 					if player_input == n4_3:
 						fourth_3.frame = 7
 						player_input = ""
 						n4_3c = true
+					else:
+						if player_input != "":
+							position.x -= 12
+							player_input = ""
 				else:
 					if n4_4c == false:
 						if player_input == n4_4:
 							fourth_4.frame = 7
 							player_input = ""
 							n4_4c = true
+						else:
+							if player_input != "":
+								position.x -= 12
+								player_input = ""
 					else:
 						if n4_5c == false:
 							if player_input == n4_5:
 								fourth_5.frame = 7
 								player_input = ""
 								n4_5c = true
+							else:
+								if player_input != "":
+									position.x -= 12
+									player_input = ""
 						else:
 							if n4_6c == false:
 								if player_input == n4_6:
 									fourth_6.frame = 7
 									player_input = ""
 									n4_6c = true
+								else:
+									if player_input != "":
+										position.x -= 12
+										player_input = ""
 							else:
 								if n4_7c == false:
 									if player_input == n4_7:
 										fourth_7.frame = 7
 										player_input = ""
 										n4_7c = true
+									else:
+										if player_input != "":
+											position.x -= 12
+											player_input = ""
 								else:
 									if n4_8c == false:
 										if player_input == n4_8:
 											fourth_8.frame = 7
 											player_input = ""
 											n4_8c = true
+										else:
+											if player_input != "":
+												position.x -= 12
+												player_input = ""
 									else:
 										if n4_9c == false:
 											if player_input == n4_9:
 												fourth_9.frame = 7
 												player_input = ""
 												n4_9c = true
+											else:
+												if player_input != "":
+													position.x -= 12
+													player_input = ""
 										else:
 											if n4_10c == false:
 												if player_input == n4_10:
 													fourth_10.frame = 7
 													player_input = ""
 													n4_10c = true
+												else:
+													if player_input != "":
+														position.x -= 12
+														player_input = ""
 											else:
 												if n4_11c == false:
 													if player_input == n4_11:
 														fourth_11.frame = 7
 														player_input = ""
 														n4_11c = true
+													else:
+														if player_input != "":
+															position.x -= 12
+															player_input = ""
 												else:
 													if n4_12c == false:
 														if player_input == n4_12:
 															fourth_12.frame = 7
 															player_input = ""
 															n4_12c = true
+														else:
+															if player_input != "":
+																position.x -= 12
+																player_input = ""
 													else:
 														if n4_13c == false:
 															if player_input == n4_13:
 																fourth_13.frame = 7
 																player_input = ""
 																n4_13c = true
+															else:
+																if player_input != "":
+																	position.x -= 12
+																	player_input = ""
 														else:
 															if n4_14c == false:
 																if player_input == n4_14:
 																	fourth_14.frame = 7
 																	player_input = ""
 																	n4_14c = true
+																else:
+																	if player_input != "":
+																		position.x -= 12
+																		player_input = ""
 															else:
 																if n4_15c == false:
 																	if player_input == n4_15:
 																		fourth_15.frame = 7
 																		player_input = ""
 																		n4_15c = true
+																	else:
+																		if player_input != "":
+																			position.x -= 12
+																			player_input = ""
 																else:
 																	if n4_16c == false:
 																		if player_input == n4_16:
 																			fourth_16.frame = 7
 																			player_input = ""
 																			n4_16c = true
+																		else:
+																			if player_input != "":
+																				position.x -= 12
+																				player_input = ""
 																	else:
 																		fourth_set.visible = false
+																		self.visible = false

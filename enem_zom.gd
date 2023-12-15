@@ -72,12 +72,6 @@ func _ready():
 	elif rand2 != 1 and rand2 != 2 and rand2 != 3 and rand2 != 4 and rand2 != 5 and rand2 != 6 and rand2 != 7 and rand2 != 8 and rand2 != 9 and rand2 != 10 and rand2 != 0:
 		note2 = "F2"
 	
-	while note2 == note:
-		if note == "F1":
-			note2 = "C2"
-		else:
-			note2 = "F1"
-	
 	if note == "C1": # This will make the right note appear for note 1.
 		nsprite.frame = 8
 	elif note == "D1":
@@ -124,9 +118,12 @@ func _ready():
 	elif note2 == "F2":
 		nsprite2.frame = 32
 	
+	if note2 == "C2":
+		nsprite2.frame = 25
+	
 	enem_key.append(note)
 	enem_key.append(note2)
-	# print(enem_key)
+	print(enem_key)
 	
 #	if event is InputEventKey and event.pressed:
 #		if event.keycode == KEY_A:

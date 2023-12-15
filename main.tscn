@@ -1,42 +1,43 @@
 [gd_scene load_steps=6 format=3 uid="uid://de471rbo3pw0k"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_coq2m"]
-[ext_resource type="Texture2D" uid="uid://bo1w763cjgme1" path="res://guy_standing.png" id="2_8sus1"]
+[ext_resource type="Texture2D" uid="uid://xfguly1vxoc8" path="res://keytar_wielder.png" id="2_rhhfn"]
 [ext_resource type="PackedScene" uid="uid://d0jrd5o8ye13v" path="res://enter_sign.tscn" id="4_381df"]
 [ext_resource type="PackedScene" uid="uid://1a8o3wsnsfrr" path="res://enem_zom.tscn" id="4_hr3qj"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_r6di0"]
-radius = 7.39209
+radius = 11.2827
+height = 29.5684
 
 [node name="Main" type="Node2D"]
 position = Vector2(0, -3)
 script = ExtResource("1_coq2m")
 
 [node name="Me" type="Sprite2D" parent="."]
-position = Vector2(151, 250)
+position = Vector2(141, 250)
 scale = Vector2(5.14063, 5.14063)
-texture = ExtResource("2_8sus1")
+texture = ExtResource("2_rhhfn")
 
 [node name="Area2D" type="Area2D" parent="Me"]
 
 [node name="HurtBox" type="CollisionShape2D" parent="Me/Area2D"]
-position = Vector2(-3.89057, 0.194527)
+position = Vector2(-1.75076, -0.19453)
 shape = SubResource("CapsuleShape2D_r6di0")
 
 [node name="Enemy_Zombie" parent="." instance=ExtResource("4_hr3qj")]
-position = Vector2(333, 218)
+position = Vector2(460, 200)
 scale = Vector2(4.79687, 4.79687)
 
 [node name="Enemy_Zombie2" parent="." instance=ExtResource("4_hr3qj")]
-position = Vector2(479, 301)
+position = Vector2(585, 297)
 scale = Vector2(4.797, 4.797)
 
 [node name="Enemy_Zombie3" parent="." instance=ExtResource("4_hr3qj")]
-position = Vector2(613, 217)
+position = Vector2(701, 218)
 scale = Vector2(4.797, 4.797)
 
 [node name="Enemy_Zombie4" parent="." instance=ExtResource("4_hr3qj")]
-position = Vector2(779, 302)
+position = Vector2(846, 303)
 scale = Vector2(4.797, 4.797)
 
 [node name="Enemy_Zombie5" parent="." instance=ExtResource("4_hr3qj")]

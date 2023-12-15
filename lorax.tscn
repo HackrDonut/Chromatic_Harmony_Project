@@ -1,8 +1,11 @@
-[gd_scene load_steps=4 format=3 uid="uid://bjfsveo1ij5be"]
+[gd_scene load_steps=5 format=3 uid="uid://bjfsveo1ij5be"]
 
 [ext_resource type="Texture2D" uid="uid://mes5uuwl6kl8" path="res://lorax_sprite.png" id="1_wr7gu"]
 [ext_resource type="Script" path="res://lorax.gd" id="2_j6jwo"]
 [ext_resource type="Texture2D" uid="uid://ckspj60dejhs4" path="res://staffnotes (2).png" id="2_qldlx"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_45xs6"]
+radius = 14.0247
 
 [node name="Lorax" type="Sprite2D"]
 position = Vector2(65, 65)
@@ -11,8 +14,8 @@ texture = ExtResource("1_wr7gu")
 script = ExtResource("2_j6jwo")
 
 [node name="First_Set" type="Node2D" parent="."]
-visible = false
 position = Vector2(-2.37037, -23.1111)
+scale = Vector2(0.7, 0.7)
 
 [node name="Clef" type="Sprite2D" parent="First_Set"]
 position = Vector2(-52.1481, -29.8395)
@@ -161,6 +164,7 @@ frame = 21
 [node name="Second_Set" type="Node2D" parent="."]
 visible = false
 position = Vector2(-2.37037, -23.1111)
+scale = Vector2(0.7, 0.7)
 
 [node name="Clef" type="Sprite2D" parent="Second_Set"]
 position = Vector2(-52.1481, -29.8395)
@@ -309,6 +313,7 @@ frame = 14
 [node name="Third_Set" type="Node2D" parent="."]
 visible = false
 position = Vector2(-2.37037, -23.1111)
+scale = Vector2(0.7, 0.7)
 
 [node name="Clef" type="Sprite2D" parent="Third_Set"]
 position = Vector2(-52.1481, -29.8395)
@@ -457,6 +462,7 @@ frame = 21
 [node name="Fourth_Set" type="Node2D" parent="."]
 visible = false
 position = Vector2(-2.37037, -23.1111)
+scale = Vector2(0.7, 0.7)
 
 [node name="Clef" type="Sprite2D" parent="Fourth_Set"]
 position = Vector2(-52.1481, -29.8395)
@@ -593,3 +599,8 @@ texture = ExtResource("2_qldlx")
 hframes = 7
 vframes = 6
 frame = 14
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CapsuleShape2D_45xs6")

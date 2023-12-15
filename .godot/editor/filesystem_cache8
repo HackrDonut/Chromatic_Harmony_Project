@@ -1,31 +1,34 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1702573714
+::res://::1702657876
 bad_zombo.png::CompressedTexture2D::5988145922587471248::1702395985::1702395985::1::::<><>::
-death_screen.tscn::PackedScene::2910215773375871522::1702573130::0::1::::<><>::
+boss_room.tscn::PackedScene::5304001539953024366::1702657659::0::1::::<><>::uid://bo1w763cjgme1::::res://guy_standing.png<>res://boss_room.gd<>uid://bjfsveo1ij5be::::res://lorax.tscn
+death_screen.tscn::PackedScene::2910215773375871522::1702657512::0::1::::<><>::
 deep_space.png::CompressedTexture2D::1463739883119876836::1701795745::1701795746::1::::<><>::
 enemy_zombie.gd::GDScript::-1::1702482274::0::1::::<>Sprite2D<>::
-enemy_zombie.tscn::PackedScene::1413453215565406769::1702573130::0::1::::<><>::uid://6hdjtfttly5k::::res://zombie.png<>res://enemy_zombie.gd<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://Random_Note.gd
+enemy_zombie.tscn::PackedScene::1413453215565406769::1702657573::0::1::::<><>::uid://6hdjtfttly5k::::res://zombie.png<>res://enemy_zombie.gd<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://Random_Note.gd
+enem_zom.gd::GDScript::-1::1702655339::0::1::::<>AnimatedSprite2D<>::
+enem_zom.tscn::PackedScene::1826940101940228871::1702657580::0::1::::<><>::uid://6gyxrbeaq56o::::res://Zombie_1.png<>res://enem_zom.gd<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://Random_Note.gd
+enter_sign.tscn::PackedScene::8933601686934790773::1702657512::0::1::::<><>::uid://bquhygetcifbi::::res://New Piskel.png
 guy_standing.png::CompressedTexture2D::3424132907058453330::1701795029::1701795030::1::::<><>::
 guy_standing.tscn::PackedScene::2877500156980767110::1702314512::0::1::::<><>::uid://bo1w763cjgme1
 icon.svg::CompressedTexture2D::6531681790889599722::1701794544::1701794552::1::::<><>::
-level_2.gd::GDScript::-1::1702482379::0::1::::<>Node2D<>::
-level_2.tscn::PackedScene::3712241003903248301::1702573130::0::1::::<><>::res://level_2.gd<>uid://bo1w763cjgme1::::res://guy_standing.png<>uid://cmwdjt13t6wok::::res://super_zom.tscn
-lorax.gd::GDScript::-1::1702571315::0::1::::<>Sprite2D<>::
-lorax.tscn::PackedScene::3029572805660553126::1702573130::0::1::::<><>::uid://mes5uuwl6kl8::::res://lorax_sprite.png<>res://lorax.gd<>uid://ckspj60dejhs4::::res://staffnotes (2).png
+keytar_wielder.png::CompressedTexture2D::1625065926322202341::1702657876::1702657876::1::::<><>::
+level_2.gd::GDScript::-1::1702655499::0::1::::<>Node2D<>::
+level_2.tscn::PackedScene::3712241003903248301::1702657512::0::1::::<><>::res://level_2.gd<>uid://bo1w763cjgme1::::res://guy_standing.png<>uid://cmwdjt13t6wok::::res://super_zom.tscn<>uid://d0jrd5o8ye13v::::res://enter_sign.tscn
+lorax.gd::GDScript::-1::1702657630::0::1::::<>Sprite2D<>::
+lorax.tscn::PackedScene::3029572805660553126::1702657512::0::1::::<><>::uid://mes5uuwl6kl8::::res://lorax_sprite.png<>res://lorax.gd<>uid://ckspj60dejhs4::::res://staffnotes (2).png
 lorax_sprite.png::CompressedTexture2D::851671196738171559::1702571397::1702571397::1::::<><>::
 lorx.png::CompressedTexture2D::2865967398654161566::1702482470::1702482470::1::::<><>::
-main.gd::GDScript::-1::1702482174::0::1::::<>Node2D<>::
-main.tscn::PackedScene::7501874650025106412::1702573130::0::1::::<><>::res://main.gd<>uid://bo1w763cjgme1::::res://guy_standing.png<>uid://1a8o3wsnsfrr::::res://enem_zom.tscn
+main.gd::GDScript::-1::1702654801::0::1::::<>Node2D<>::
+main.tscn::PackedScene::7501874650025106412::1702657791::0::1::::<><>::res://main.gd<>uid://bo1w763cjgme1::::res://guy_standing.png<>uid://d0jrd5o8ye13v::::res://enter_sign.tscn<>uid://1a8o3wsnsfrr::::res://enem_zom.tscn
 New Piskel.png::CompressedTexture2D::3551197937171481982::1702573714::1702573714::1::::<><>::
 Random_Note.gd::GDScript::-1::1701882697::0::1::::<>Sprite2D<>::
 README.md::TextFile::-1::1701794602::0::1::::<><>::
-boss_room.tscn::PackedScene::5304001539953024366::1702573137::0::1::::<><>::uid://bo1w763cjgme1::::res://guy_standing.png<>uid://bjfsveo1ij5be::::res://lorax.tscn
-enem_zom.tscn::PackedScene::1826940101940228871::1702573130::0::1::::<><>::uid://6gyxrbeaq56o::::res://Zombie_1.png<>res://enem_zom.gd<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://Random_Note.gd
-enem_zom.gd::GDScript::-1::1702572275::0::1::::<>AnimatedSprite2D<>::
-super_zom.gd::GDScript::-1::1702572760::0::1::::<>AnimatedSprite2D<>::
-super_zom.tscn::PackedScene::5660723064162743398::1702573130::0::1::::<><>::uid://6gyxrbeaq56o::::res://Zombie_1.png<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://super_zom.gd
+boss_room.gd::GDScript::-1::1702657659::0::1::::<>Node2D<>::
 staffnotes (2).png::CompressedTexture2D::5512817097362221893::1701880911::1701880911::1::::<><>::
+super_zom.gd::GDScript::-1::1702572760::0::1::::<>AnimatedSprite2D<>::
+super_zom.tscn::PackedScene::5660723064162743398::1702657512::0::1::::<><>::uid://6gyxrbeaq56o::::res://Zombie_1.png<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://super_zom.gd
 super_zombie.gd::GDScript::-1::1702484209::0::1::::<>Sprite2D<>::
-super_zombie.tscn::PackedScene::9035368062083022705::1702573130::0::1::::<><>::uid://crkx5hcjba1hk::::res://bad_zombo.png<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://super_zombie.gd
+super_zombie.tscn::PackedScene::9035368062083022705::1702657512::0::1::::<><>::uid://crkx5hcjba1hk::::res://bad_zombo.png<>uid://ckspj60dejhs4::::res://staffnotes (2).png<>res://super_zombie.gd
 zombie.png::CompressedTexture2D::2190504026737665166::1701795901::1701795902::1::::<><>::
 Zombie_1.png::CompressedTexture2D::2189739595013733476::1702571543::1702571543::1::::<><>::
